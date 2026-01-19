@@ -325,4 +325,4 @@ nav_order: 50
 
 ## Siguiente sección
 
-[Navegación y menú (Just the Docs)](04-navegacion.md)
+[Personalización Visual ](04-estilos.md)
