@@ -12,7 +12,7 @@ plugins:
 #     url: "https://TU_USUARIO.github.io"
 #     baseurl: "/NOMBRE_DEL_REPO"
 url: "https://marthavlds1.github.io/"
-baseurl: "/Wearables"
+baseurl: "/DocumentacionWearables"
 
 #Configuracion Formato, Header y Footer
 just_the_docs:
@@ -29,7 +29,7 @@ search:
 # Ejemplo de enlace auxiliar (aparece arriba a la derecha)
 aux_links:
   "Repositorio en GitHub":
-    - "https://github.com/marthavlds1/Wearables"
+    - "https://github.com/marthavlds1/DocumentacionWearables"
 
 # Enlaces
 permalink: pretty
