@@ -1,14 +1,12 @@
 ---
 layout: default
 title: Estilos y personalización visual
-nav_order: 7
+nav_order: 5
 ---
 
 # Estilos y personalización visual
 
 Esta sección explica **cómo funciona la personalización visual** en este repositorio y qué debes modificar para poner el sitio con tu identidad (logo, colores, footer, etc.) **sin romper la estructura**.
-
-> [FIGURA: Captura del sitio ya publicado (antes/después de cambiar logo y colores).]
 
 ---
 
@@ -41,11 +39,9 @@ Estructura típica:
 └─ ...
 ```
 
-> [FIGURA: Captura de la estructura en GitHub o Codespaces.]
-
 ---
 
-## 2) “Lo mínimo” para poner tu identidad (sin complicarte)
+## 2) “Lo mínimo” para poner tu identidad
 
 Si solo quieres “poner tu marca” y seguir avanzando con el curso, haz esto:
 
@@ -56,21 +52,17 @@ Reemplaza el archivo:
 
 **Regla importante:** conserva **exactamente** el nombre `logotipo.png` para no tener que cambiar rutas.
 
-> [FIGURA: Captura del archivo `logotipo.png` en la carpeta assets/img.]
-
 ### Paso B — Cambia el favicon
 Reemplaza el archivo:
 
 - `assets/img/favicon.ico`
-
-> [FIGURA: Captura del favicon en pestaña del navegador.]
 
 ### Paso C — Ajusta colores (si lo necesitas)
 Edita:
 
 - `assets/css/custom.css`
 
-Más abajo tienes una guía de “qué tocar” sin perderte.
+Más abajo tienes una guía de “qué cambiar” sin perderte.
 
 ---
 
@@ -109,10 +101,8 @@ Código relevante (simplificado):
   - `assets/img/favicon.ico`
 
 **Cuándo sí lo cambiarías:**
-- Si decides renombrar archivos (no recomendado en un curso).
+- Si decides renombrar archivos (no recomendado).
 - Si quieres insertar otro elemento adicional en el `<head>` (por ejemplo: analytics, meta tags especiales, etc.).
-
-> [FIGURA: Captura del archivo `_includes/head_custom.html` abierto en Codespaces.]
 
 ---
 
@@ -149,8 +139,6 @@ Ejemplo de variable de enlaces:
 a, a:visited { color: var(--link-color); }
 ```
 
-> [FIGURA: Captura de búsqueda “#E00034” dentro de `custom.css`.]
-
 ### 4.2 Sidebar y navegación (menú lateral)
 
 El CSS fuerza el sidebar en rojo y los links en blanco:
@@ -166,17 +154,7 @@ El CSS fuerza el sidebar en rojo y los links en blanco:
 
 Y define estados activos/hover más visibles.
 
-> [FIGURA: Captura del menú lateral con un ítem activo.]
-
-### 4.3 “Navbar fix”: si te salen símbolos raros en el menú
-
-El archivo incluye un bloque comentado como “NAVBAR FIX (Just the Docs)”. Su intención es neutralizar pseudo-elementos que, en algunas combinaciones, generan caracteres raros en el sidebar y luego dibujar un bullet limpio para el nivel 2.
-
-Si alguna vez ves cosas extrañas (por ejemplo símbolos repetidos), revisa ese bloque.
-
-> [FIGURA: Captura del problema (si aparece) + captura del bloque “NAVBAR FIX”.]
-
-### 4.4 Footer: ocultar el del tema y usar el tuyo
+### 4.3 Footer: ocultar el del tema y usar el tuyo
 
 El CSS oculta el footer del tema:
 
@@ -229,68 +207,15 @@ Ejemplo (simplificado):
 - La licencia (si aplica).
 - El enlace “Uso de IA” (si quieres ocultarlo o moverlo).
 
-> [FIGURA: Captura del footer al final de una página.]
-
 ---
 
-## 6) Estilos útiles para el curso (recomendados)
-
-### 6.1 Video responsivo (iframe de YouTube/Vimeo)
-
-Si quieres que los iframes sean responsivos (se ajusten en móvil), agrega esto a `custom.css`:
-
-```css
-.responsive-embed {
-  position: relative;
-  width: 100%;
-  padding-top: 56.25%; /* 16:9 */
-  overflow: hidden;
-  border-radius: 12px; /* opcional */
-}
-
-.responsive-embed iframe {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-```
-
-Y en Markdown/HTML úsalo así:
-
-```html
-<div class="responsive-embed">
-  <iframe
-    src="https://www.youtube.com/embed/ID_DEL_VIDEO"
-    title="Video"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
-</div>
-```
-
-> [FIGURA: Captura de un video incrustado en desktop y móvil.]
-
-### 6.2 Video MP4 (archivo local) más “amigable” en móvil
-
-Para que el MP4 no “se salga” en pantallas pequeñas, agrega:
-
-```css
-video {
-  max-width: 100%;
-  height: auto;
-}
-```
-
----
-
-## 7) Checklist rápido cuando “no se ve” el cambio
+## 6) Checklist rápido cuando “no se ve” el cambio
 
 1) **Guardaste el archivo** (en Codespaces o en tu editor).
 2) Hiciste **commit** y **push** al repositorio.
 3) Esperaste a que **GitHub Actions** termine (verde).
 4) Abriste tu sitio y forzaste recarga:
-   - Windows: `Ctrl + F5`
+   - Windows: `Ctrl + F5` o `Ctrl + Shift + R`
    - macOS: `Cmd + Shift + R`
 
 Tip de diagnóstico:
@@ -298,7 +223,6 @@ Tip de diagnóstico:
   `TU_URL/assets/css/custom.css`  
   Si no carga, el problema es de ruta o de build.
 
-> [FIGURA: Captura de GitHub Actions en verde + captura de recarga dura en el navegador.]
 
 ---
 
