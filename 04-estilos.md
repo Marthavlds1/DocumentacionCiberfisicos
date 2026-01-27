@@ -2,6 +2,8 @@
 layout: default
 title: Estilos y personalización visual
 nav_order: 5
+has_children: true
+
 ---
 
 # Estilos y personalización visual
