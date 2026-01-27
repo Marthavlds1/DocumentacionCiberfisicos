@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Practicas
+title: Sistemas Embebdidos
 nav_order: 3
 ---
 
