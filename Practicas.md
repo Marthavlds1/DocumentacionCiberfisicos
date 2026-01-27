@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Publicar en GitHub Pages
+title: Practicas
 nav_order: 2
 ---
 
