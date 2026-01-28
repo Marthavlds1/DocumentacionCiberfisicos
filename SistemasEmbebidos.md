@@ -8,13 +8,15 @@ nav_order: 3
 
 Los sistemas embebidos son sistemas de computación basados en microprocesadores o microcontroladores, diseñados para realizar funciones dedicadas y específicas. Estos sistemas están optimizados para ejecutar tareas concretas en tiempo real.
 
+## Entorno de Programación
 
 ## Microcontroladores
 
-## Entorno de Programación
-
-
+## Uso de microcontroladores
 ### Arduino Uno (ATmega328P)
+![Pin Out Arduino Nano](assets/img/ArduinoUnoPinOut.png)
+![Pin Out Arduino Nano](assets/img/ArduinoUno.png)
+
 ### Arduino Nano (ATmega328P)
 ### XIAO RP2040
 ### ESP32 DevKit V1 (ESP32‑WROOM‑32)
