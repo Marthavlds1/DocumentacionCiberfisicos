@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Estructura del repositorio
+title: Proceso durante clase
 nav_order: 4
 ---
 
