@@ -2,6 +2,8 @@
 layout: default
 title: Practicas
 nav_order: 2
+has_children: true
+permalink: /Practicas/
 ---
 
 # Publicar sitio en GitHub Pages
