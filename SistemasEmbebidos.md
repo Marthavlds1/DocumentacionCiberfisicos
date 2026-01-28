@@ -3,7 +3,7 @@ layout: default
 title: Sistemas Embebidos
 nav_order: 1
 parent: Practicas
-permalink: /Practicas/Sistemas Embebidos/
+permalink: /Practicas/Sistemas-Embebidos/
 ---
 
 # Sistemas Embebidos 
