@@ -20,6 +20,26 @@ Una computadora moderna requiere varios componentes esenciales que trabajan en c
 
 En el siguiente apartado, se presentan dos propuestas de configuración: una con un presupuesto limitado de $25,000 MXN orientada a ofrecer el mejor rendimiento posible dentro de restricciones económicas, y otra sin límite de presupuesto que explora lo mejor que la tecnología actual puede ofrecer. Ambas configuraciones demostrarán cómo los mismos principios de compatibilidad entre componentes y cómo las decisiones de selección varían según los objetivos y recursos disponibles.
 
-### 1 Presupuesto limitado: $25k 
+### 1.Presupuesto limitado: $25k 
+Componentes
+1. Procesador 
+    Modelo: AMD Ryzen 7 7700
+    Especifiaciones:
+        -5.3 GHz
+        -8 núcleos
+        -Socket AM5
+    Precio: $5, 899
+    Link de compra: [Procesador AMD 7 7700](https://ddtech.mx/producto/procesador-amd-ryzen-7-7700-5-3-ghz-8-nucleos-socket-am5-amd-radeon-graphics-100-100000592box-7000-series?id=12368)
 
-### 2 Presupuesto ilimitado
+2. Tarjeta Madre
+    Modelo: ASUS Prime B650M-A AX6 II 
+    Especificaciones:
+        -Capacidad 192 GB 
+        -RAM DDR5 
+        -Socket AM5 
+        -Wi-Fi 6
+        -Bluetooth 5.3 
+    Precio: $2,391
+    Link de compra: [Tarjeta Madre](https://www.amazon.com.mx/ASUS-Tarjeta-B650M-AX6-II/dp/B0FH5RFTYW/ref=asc_df_B0FH5RFTYW?mcid=b49a30fd395739d08a9e046c62254f38&tag=gledskshopmx-20&linkCode=df0&hvadid=761967928071&hvpos=&hvnetw=g&hvrand=7741242411400839862&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9196927&hvtargid=pla-2441705692528&psc=1&language=es_MX&gad_source=1)
+
+### 2.Presupuesto ilimitado
