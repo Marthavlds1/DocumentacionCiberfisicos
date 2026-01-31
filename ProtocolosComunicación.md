@@ -3,10 +3,10 @@ layout: default
 title: Protocolos de Comunicación
 nav_order: 3
 parent: Practicas
-permalink: /Practicas/Protocolos-de-Comunicación/
+permalink: /Practicas/Protocolos-de-Comunicacion/
 ---
 
-# Reporte de Laboratorio: Sistemas Embebidos y Protocolos de Comunicación
+# Protocolos de Comunicación
 
 ## 1. ¿Qué es un Sistema Embebido?
 A diferencia de una computadora personal, un **sistema embebido** es un sistema de computación diseñado para realizar funciones específicas o dedicadas, generalmente dentro de un sistema mecánico o eléctrico mayor.
