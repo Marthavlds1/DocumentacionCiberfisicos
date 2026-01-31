@@ -46,15 +46,11 @@ Componentes
 
     Especificaciones:
 
-
         - Capacidad 192 GB
-
-        - RAM DDR5 
-
+        
+        - RAM DDR5  
         - Socket AM5 
-
         - Wi-Fi 6
-
         - Bluetooth 5.3 
 
     Precio: $2,391
