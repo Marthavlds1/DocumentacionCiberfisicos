@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Protocolos de Comunicación
+title: Protocolos de Comunicacion
 nav_order: 3
 parent: Practicas
 permalink: /Practicas/Protocolos-de-Comunicacion/
@@ -11,6 +11,7 @@ permalink: /Practicas/Protocolos-de-Comunicacion/
 ## 1. ¿Qué es un Sistema Embebido?
 A diferencia de una computadora personal, un **sistema embebido** es un sistema de computación diseñado para realizar funciones específicas o dedicadas, generalmente dentro de un sistema mecánico o eléctrico mayor.
 
+![Sistema Embebido](SE.png)
 **Características principales:**
 * **Especialización:** Diseñados para una tarea concreta.
 * **Eficiencia:** Optimizados para bajo consumo de energía y costo reducido.
@@ -36,8 +37,6 @@ Protocolo de tipo **síncrono** que utiliza una arquitectura Maestro-Esclavo.
 * **Ventaja:** Permite conectar múltiples dispositivos (hasta 127) usando el mismo par de cables mediante direcciones únicas.
 * **Uso común:** Sensores de temperatura, acelerómetros y pantallas OLED.
 
-
-
 ### C. SPI (Serial Peripheral Interface)
 Es el protocolo más rápido de los tres, operando de forma **síncrona** a altas velocidades.
 * **Conexión:** Utiliza cuatro hilos (**MOSI, MISO, SCK, SS**).
@@ -54,7 +53,7 @@ En este reporte se comparó el rendimiento de tres arquitecturas distintas:
 
 ---
 
-## 4. Resultados de la Práctica 1: Latencia y Baudrate
+## 4. Resultados de la Práctica: Latencia y Baudrate
 *Aquí es donde debes insertar la información específica de tus experimentos.*
 
 ### Comparativa de Latencia
