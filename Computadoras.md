@@ -27,23 +27,20 @@ En el siguiente apartado, se presentan dos propuestas de configuración: una con
 
 ### 1. Presupuesto limitado: $25k 
 
-**Componentes**
-
-1. **Procesador** 
-* **Modelo:** AMD Ryzen 7 7700
-* **Especificaciones:**
+Componentes
+1. Procesador
+* Modelo: AMD Ryzen 7 7700
+* Especificaciones:
         * 5.3 GHz
         * 8 núcleos
         * Socket AM5
-* **Precio:** $5,899
-* **Link de compra:** [Procesador AMD 7 7700](https://ddtech.mx/producto/procesador-amd-ryzen-7-7700-5-3-ghz-8-nucleos-socket-am5-amd-radeon-graphics-100-100000592box-7000-series?id=12368)
+* Precio:$5,899
+* Link de compra:[Procesador AMD 7 7700](https://ddtech.mx/producto/procesador-amd-ryzen-7-7700-5-3-ghz-8-nucleos-socket-am5-amd-radeon-graphics-100-100000592box-7000-series?id=12368)
 
 2. Tarjeta Madre
-
-    Modelo: ASUS Prime B650M-A AX6 II 
-
-    Especificaciones:
-        - Capacidad 192 GB
+Modelo: ASUS Prime B650M-A AX6 II 
+Especificaciones:
+        *- Capacidad 192 GB
         - RAM DDR5  
         - Socket AM5 
         - Wi-Fi 6
