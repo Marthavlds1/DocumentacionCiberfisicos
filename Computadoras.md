@@ -26,28 +26,24 @@ Finalmente, el gabinete no solo aloja físicamente todos estos componentes, sino
 En el siguiente apartado, se presentan dos propuestas de configuración: una con un presupuesto limitado de $25,000 MXN orientada a ofrecer el mejor rendimiento posible dentro de restricciones económicas, y otra sin límite de presupuesto que explora lo mejor que la tecnología actual puede ofrecer. Ambas configuraciones demostrarán cómo los mismos principios de compatibilidad entre componentes y cómo las decisiones de selección varían según los objetivos y recursos disponibles.
 
 ### 1. Presupuesto limitado: $25k 
-Componentes
-1. Procesador 
 
-    Modelo: AMD Ryzen 7 7700
+**Componentes**
 
-    Especifiaciones:
-        - 5.3 GHz
-        - 8 núcleos
-        - Socket AM5
-
-    Precio: $5, 899
-
-    Link de compra: [Procesador AMD 7 7700](https://ddtech.mx/producto/procesador-amd-ryzen-7-7700-5-3-ghz-8-nucleos-socket-am5-amd-radeon-graphics-100-100000592box-7000-series?id=12368)
+1. **Procesador** 
+* **Modelo:** AMD Ryzen 7 7700
+* **Especificaciones:**
+        * 5.3 GHz
+        * 8 núcleos
+        * Socket AM5
+* **Precio:** $5,899
+* **Link de compra:** [Procesador AMD 7 7700](https://ddtech.mx/producto/procesador-amd-ryzen-7-7700-5-3-ghz-8-nucleos-socket-am5-amd-radeon-graphics-100-100000592box-7000-series?id=12368)
 
 2. Tarjeta Madre
 
     Modelo: ASUS Prime B650M-A AX6 II 
 
     Especificaciones:
-
         - Capacidad 192 GB
-        
         - RAM DDR5  
         - Socket AM5 
         - Wi-Fi 6
