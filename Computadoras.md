@@ -12,13 +12,13 @@ Armar una computadora es un proceso lógico y accesible una vez que se comprende
 ## Componentes de computadoras
 Una computadora moderna requiere varios componentes esenciales que trabajan en conjunto como un ecosistema integrado:
 
-- El procesador (CPU) actúa como el cerebro del sistema, ejecutando instrucciones y cálculos. La tarjeta madre funciona como el sistema nervioso, conectando todos los componentes y permitiendo que se comuniquen entre sí. 
+El procesador (CPU) actúa como el cerebro del sistema, ejecutando instrucciones y cálculos. La tarjeta madre funciona como el sistema nervioso, conectando todos los componentes y permitiendo que se comuniquen entre sí. 
 
-- La memoria RAM proporciona espacio de trabajo temporal para que el procesador acceda rápidamente a los datos que necesita en el momento. 
+La memoria RAM proporciona espacio de trabajo temporal para que el procesador acceda rápidamente a los datos que necesita en el momento. 
 
-- La tarjeta gráfica (GPU) se encarga de procesar y renderizar imágenes, siendo especialmente crítica para gaming y trabajo visual.
+La tarjeta gráfica (GPU) se encarga de procesar y renderizar imágenes, siendo especialmente crítica para gaming y trabajo visual.
 
-- El almacenamiento (SSD o HDD) guarda permanentemente el sistema operativo, programas y archivos personales. La fuente de poder convierte la electricidad de la toma de corriente en voltajes específicos que cada componente necesita. 
+El almacenamiento (SSD o HDD) guarda permanentemente el sistema operativo, programas y archivos personales. La fuente de poder convierte la electricidad de la toma de corriente en voltajes específicos que cada componente necesita. 
 
 Finalmente, el gabinete no solo aloja físicamente todos estos componentes, sino que también contribuye a la ventilación y estética del sistema.
 
@@ -29,16 +29,16 @@ En el siguiente apartado, se presentan dos propuestas de configuración: una con
 Componentes
 1. Procesador 
 
-Modelo: AMD Ryzen 7 7700
+    Modelo: AMD Ryzen 7 7700
 
-Especifiaciones:
-    - 5.3 GHz
-    - 8 núcleos
-    - Socket AM5
+    Especifiaciones:
+        - 5.3 GHz
+        - 8 núcleos
+        - Socket AM5
 
-Precio: $5, 899
+    Precio: $5, 899
 
-Link de compra: [Procesador AMD 7 7700](https://ddtech.mx/producto/procesador-amd-ryzen-7-7700-5-3-ghz-8-nucleos-socket-am5-amd-radeon-graphics-100-100000592box-7000-series?id=12368)
+    Link de compra: [Procesador AMD 7 7700](https://ddtech.mx/producto/procesador-amd-ryzen-7-7700-5-3-ghz-8-nucleos-socket-am5-amd-radeon-graphics-100-100000592box-7000-series?id=12368)
 
 2. Tarjeta Madre
 
