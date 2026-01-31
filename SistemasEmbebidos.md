@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sistemas Embebidos
-nav_order: 1
+nav_order: 2
 parent: Practicas
 permalink: /Practicas/Sistemas-Embebidos/
 ---
