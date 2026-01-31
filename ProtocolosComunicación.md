@@ -11,7 +11,7 @@ permalink: /Practicas/Protocolos-de-Comunicacion/
 ## 1. ¿Qué es un Sistema Embebido?
 A diferencia de una computadora personal, un **sistema embebido** es un sistema de computación diseñado para realizar funciones específicas o dedicadas, generalmente dentro de un sistema mecánico o eléctrico mayor.
 
-![Sistema Embebido](SE.png)
+
 **Características principales:**
 * **Especialización:** Diseñados para una tarea concreta.
 * **Eficiencia:** Optimizados para bajo consumo de energía y costo reducido.
