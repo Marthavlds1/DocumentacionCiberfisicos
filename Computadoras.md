@@ -29,13 +29,13 @@ En el siguiente apartado, se presentan dos propuestas de configuración: una con
 
 Componentes
 1. Procesador
-Modelo: AMD Ryzen 7 7700
-Especificaciones:
+* Modelo: AMD Ryzen 7 7700
+* Especificaciones:
         * 5.3 GHz
         * 8 núcleos
         * Socket AM5
-Precio:$5,899
-Link de compra:[Procesador AMD 7 7700](https://ddtech.mx/producto/procesador-amd-ryzen-7-7700-5-3-ghz-8-nucleos-socket-am5-amd-radeon-graphics-100-100000592box-7000-series?id=12368)
+* Precio:$5,899
+* Link de compra:[Procesador AMD 7 7700](https://ddtech.mx/producto/procesador-amd-ryzen-7-7700-5-3-ghz-8-nucleos-socket-am5-amd-radeon-graphics-100-100000592box-7000-series?id=12368)
 
 2. Tarjeta Madre
 * Modelo: ASUS Prime B650M-A AX6 II 
@@ -61,18 +61,60 @@ Link de compra:[Procesador AMD 7 7700](https://ddtech.mx/producto/procesador-amd
 4. Tarjeta Gráfica 
 * Modelo: MSI Gaming RTX 5060 8G Shadow 2X OC 
 * Especificaciones: 
-    * 8GB
-    * GDDR7 
-    * Frecuencia 2535 MHz 
-    * Arquitectura NVIDIA Blackwell 
+        * 8GB
+        * GDDR7 
+        * Frecuencia 2535 MHz 
+        * Arquitectura NVIDIA Blackwell 
 * Precio: $6,635 
 * Link de compra: [Tarjeta Gráfica](https://www.amazon.com.mx/MSI-Tarjeta-gr%C3%A1fica-Rendimiento-Extremo/dp/B0F4LP8VH5/ref=asc_df_B0F4LP8VH5?mcid=70c017d3b5193cbdbc5a8acd28112c65&tag=gledskshopmx-20&linkCode=df0&hvadid=745054174681&hvpos=&hvnetw=g&hvrand=1722777082906757481&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9196927&hvtargid=pla-2616278449112&psc=1&language=es_MX&gad_source=1)
 
 5. Almacenamiento 
 * Modelo: Unidad SSD Kingston NV2 
 * Especificaciones: 
-    * Capacidad 1 TB 
-    * Interfaz PCIe Gen 4.0 x4 y NVMe 
+        * Capacidad 1 TB 
+        * Interfaz PCIe Gen 4.0 x4 y NVMe
 * Precio: $2,650 
 * Link de compra: [Almacenamiento](https://www.mercadolibre.com.mx/unidad-ssd-kingston-nv2-1tb-m2-nvme-40-3500mb-2100mbs-color-turquesa/p/MLM19738268?pdp_filters=item_id%3AMLM2716408459&from=gshop&matt_tool=22537694&matt_word=&matt_source=google&matt_campaign_id=22122739109&matt_ad_group_id=172792511425&matt_match_type=&matt_network=g&matt_device=c&matt_creative=729726340073&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=735123306&matt_product_id=MLM19738268-product&matt_product_partition_id=2389849485285&matt_target_id=aud-2418605322928:pla-2389849485285&cq_src=google_ads&cq_cmp=22122739109&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=22122739109&gbraid=0AAAAAoTLPrJUVHgYLbN4KT7ftR0spWVwF&gclid=Cj0KCQiAyvHLBhDlARIsAHxl6xpG9GGuj_pmfgU-NPanSzKGIEI53WMLYepCvZutkkZpd7yCOHu-19saArEQEALw_wcB)
+
+6. Fuente de Poder 
+* Modelo: MSI MAG A650BN 
+* Especificaciones: 
+        * Potencia total 650 W 
+        * Eficiencia 80 Plus Bronze 
+        * Ventilador 120mm 
+* Precio: $999 
+* Link de compra:[Fuente de poder](https://coregaming.com.mx/producto/fuente-de-poder-msi-mag-a650bn-80-plus-bronze-24-pin-atx-120mm-no-modular-650w-mag-a650bn)
+
+7. Gabinete 
+* Modelo: DeepCool CC360 ARGB 
+* Especificaciones: 
+        * Formato Micro-Tower 
+        * 3 ventiladores instalados 
+        * Iluminación ARGB 
+* Precio: $999 
+* Link de compra: [Gabinete](https://www.cyberpuerta.mx/Computo-Hardware/Componentes/Gabinetes/Gabinete-DeepCool-CC360-ARGB-Micro-Tower-Micro-ATX-Mini-ITX-USB-2-0-3-0-sin-Fuente-3-Ventiladores-Instalados-Negro.html)
+
+Périfecicos
+1. Mouse 
+* Modelo: Inalámbrico Ergonómico Vertical 
+* Espeficaciones: 
+        * Recargable
+        * 2.4 GHz
+        * 6 botones. 
+* Precio: $229 
+* Link de compra: [Mouse](https://www.amazon.com.mx/Inal%C3%A1mbrico-Ergon%C3%B3mico-Recargable-Ajustables-Ergonomico/dp/B0CSN8P8G2/ref=asc_df_B0CSN8P8G2?mcid=e4305f20055632e98b78b4a1716084d9&tag=gledskshopmx-20&linkCode=df0&hvadid=709966298345&hvpos=&hvnetw=g&hvrand=10906713632831497011&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9131460&hvtargid=pla-2297582641595&language=es_MX&gad_source=1&th=1)
+
+2. Teclado 
+* Modelo: Logitech K120 USB Negro.
+* Precio: $208 
+* Link de compra: [Teclado](https://intercompras.com/p/teclado-logitech-k120-usb-negro-63377?srsltid=AfmBOopDQu_jOzifyBayn2VPSs-Qr4LGMM6QxlDLFagjRO0iiOQbAcEbCPo)
+
+3. Monitor 
+* Modelo: LGamer Curvo MSI G243CV.
+* Especificaciones: 
+        * Pantalla 23.6"
+        * Full HD (1920x1080)
+        * 75Hz.
+* Precio: $208 
+* Link de compra: [Monitor](https://www.cyberpuerta.mx/Computo-Hardware/Monitores/Monitores/Monitor-Gamer-Curvo-MSI-G243CV-LCD-23-6-1920x1080-Full-HD-FreeSync-75Hz-HDMI-DisplayPort-Negro.html?gad_source=1&gad_campaignid=22512533880&gbraid=0AAAAAD4nXn3tcNz6vuV0DwbuL5JBr_G90&gclid=CjwKCAiA95fLBhBPEiwATXUsxBctVbyCNPg-smRvtyZ23YGS8-K2b_Eu1tcXMTBJzVDULR4qUxetXhoCfmcQAvD_BwE)
 ### 2. Presupuesto ilimitado
