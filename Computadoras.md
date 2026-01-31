@@ -42,31 +42,37 @@ Componentes
 
 2. Tarjeta Madre
 
-Modelo: ASUS Prime B650M-A AX6 II 
+    Modelo: ASUS Prime B650M-A AX6 II 
 
-Especificaciones:
-    - Capacidad 192 GB 
-    - RAM DDR5 
-    - Socket AM5 
-    - Wi-Fi 6
-    - Bluetooth 5.3 
+    Especificaciones:
 
-Precio: $2,391
 
-Link de compra: [Tarjeta Madre](https://www.amazon.com.mx/ASUS-Tarjeta-B650M-AX6-II/dp/B0FH5RFTYW/ref=asc_df_B0FH5RFTYW?mcid=b49a30fd395739d08a9e046c62254f38&tag=gledskshopmx-20&linkCode=df0&hvadid=761967928071&hvpos=&hvnetw=g&hvrand=7741242411400839862&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9196927&hvtargid=pla-2441705692528&psc=1&language=es_MX&gad_source=1)
+        - Capacidad 192 GB
+
+        - RAM DDR5 
+
+        - Socket AM5 
+
+        - Wi-Fi 6
+
+        - Bluetooth 5.3 
+
+    Precio: $2,391
+
+    Link de compra: [Tarjeta Madre](https://www.amazon.com.mx/ASUS-Tarjeta-B650M-AX6-II/dp/B0FH5RFTYW/ref=asc_df_B0FH5RFTYW?mcid=b49a30fd395739d08a9e046c62254f38&tag=gledskshopmx-20&linkCode=df0&hvadid=761967928071&hvpos=&hvnetw=g&hvrand=7741242411400839862&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9196927&hvtargid=pla-2441705692528&psc=1&language=es_MX&gad_source=1)
 
 3. Memoria RAM
 
-Modelo: Kingston Fury Beast RGB 
+    Modelo: Kingston Fury Beast RGB 
 
-Especificaciones: 
-    - Capacidad 16GB (1x16GB) 
-    - Frecuencia 5600MHz 
-    - Generación DDR5 
-    - Iluminación RGB 
+    Especificaciones: 
+        - Capacidad 16GB (1x16GB) 
+        - Frecuencia 5600MHz 
+        - Generación DDR5 
+        - Iluminación RGB 
 
-Precio: $1,599 
+    Precio: $1,599 
 
-Link de compra: [Memoria RAM](https://www.xtremepc.com.mx/products/memoria-ram-xtreme-pc-gaming-kingston-fury-beast-rgb-ddr5-16gb-5600mt-s-1x16gb-negro)
+    Link de compra: [Memoria RAM](https://www.xtremepc.com.mx/products/memoria-ram-xtreme-pc-gaming-kingston-fury-beast-rgb-ddr5-16gb-5600mt-s-1x16gb-negro)
 
 ### 2. Presupuesto ilimitado
