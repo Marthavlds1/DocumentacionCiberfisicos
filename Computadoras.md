@@ -22,8 +22,7 @@ El almacenamiento (SSD o HDD) guarda permanentemente el sistema operativo, progr
 
 Finalmente, el gabinete no solo aloja físicamente todos estos componentes, sino que también contribuye a la ventilación y estética del sistema.
 
-
-En el siguiente apartado, se presentan dos propuestas de configuración: una con un presupuesto limitado de $25,000 MXN orientada a ofrecer el mejor rendimiento posible dentro de restricciones económicas, y otra sin límite de presupuesto que explora lo mejor que la tecnología actual puede ofrecer. Ambas configuraciones demostrarán cómo los mismos principios de compatibilidad entre componentes y cómo las decisiones de selección varían según los objetivos y recursos disponibles.
+En el siguiente apartado, se presentan dos propuestas de configuración: una con un presupuesto limitado de [$25,000 MXN](https://marthavlds1.github.io/DocumentacionCiberfisicos/Practicas/Computadoras/#1-presupuesto-limitado-25k) orientada a ofrecer el mejor rendimiento posible dentro de restricciones económicas, y otra [sin límite](https://marthavlds1.github.io/DocumentacionCiberfisicos/Practicas/Computadoras/#2-propuesta-sin-l%C3%ADmite-de-presupuesto) de presupuesto que explora lo mejor que la tecnología actual puede ofrecer. Ambas configuraciones demostrarán cómo los mismos principios de compatibilidad entre componentes y cómo las decisiones de selección varían según los objetivos y recursos disponibles.
 
 ### 1. Presupuesto limitado: $25k 
 
