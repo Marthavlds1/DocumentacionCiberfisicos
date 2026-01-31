@@ -117,4 +117,69 @@ Périfecicos
         * 75Hz.
 * Precio: $208 
 * Link de compra: [Monitor](https://www.cyberpuerta.mx/Computo-Hardware/Monitores/Monitores/Monitor-Gamer-Curvo-MSI-G243CV-LCD-23-6-1920x1080-Full-HD-FreeSync-75Hz-HDMI-DisplayPort-Negro.html?gad_source=1&gad_campaignid=22512533880&gbraid=0AAAAAD4nXn3tcNz6vuV0DwbuL5JBr_G90&gclid=CjwKCAiA95fLBhBPEiwATXUsxBctVbyCNPg-smRvtyZ23YGS8-K2b_Eu1tcXMTBJzVDULR4qUxetXhoCfmcQAvD_BwE)
-### 2. Presupuesto ilimitado
+
+
+### 2. Propuesta: Sin límite de presupuesto
+Componentes
+
+1. Procesador
+    * Modelo:  AMD Ryzen 9 9950X3D
+    * Especificaciones:
+        * 16 núcleos
+        * Velocidad 4.3 GHz (Base)
+        * Socket AM5
+    * Precio: $14,574
+    * Link de compra: [AMD Ryzen 9 9950X3D - Amazon](https://www.amazon.com.mx/AMD-Ryzen-9950X3D-Procesador-núcleos/dp/B0D6R6S9NG)
+
+2. Tarjeta Madre
+    * Modelo: ASUS ROG CROSSHAIR X870E APEX
+    * Especificaciones:
+        * Socket AM5
+        * Tecnología DDR5
+        * Velocidad 4000 MHz
+    * Precio: $15,227
+    * Link de compra: [ASUS ROG Crosshair X870E - Amazon](https://www.amazon.com.mx)
+
+3. Tarjeta Gráfica
+    * Modelo: ASUS ROG Strix GeForce RTX 4090 OC Edition
+    * Especificaciones:
+        * 24GB GDDR6X
+        * Soporte DLSS 3
+        * Edición Overclock (OC)
+    * Precio: $45,849
+    * Link de compra: [RTX 4090 ROG Strix - Amazon](https://www.amazon.com.mx)
+
+4. Memoria RAM
+    * Modelo: G.Skill Trident Z5 RGB Series (Intel XMP)
+    * Especificaciones:
+        * Capacidad 64GB (2x32GB)
+        * Velocidad 6400 MT/s
+        * DDR5 SDRAM
+    * Precio: $4,589
+    * Link de compra: [G.Skill Trident Z5 - Amazon](https://www.amazon.com.mx)
+
+5. Almacenamiento
+    * Modelo: Unidad SSD Interno Kingston NV3
+    * Especificaciones:
+        * Capacidad 4 TB
+        * Formato M.2 NVMe
+    * Precio: $5,654
+    * Link de compra: [Kingston NV3 4TB - Amazon](https://www.amazon.com.mx)
+
+6. Fuente de Poder
+    * Modelo: Corsair RM1000e 80 Plus Titanium Modular
+    * Especificaciones:
+        * Potencia 1000 W
+        * Certificación 80 Plus Titanium
+        * Totalmente modular
+    * Precio: $3,500 (Aprox. según mercado)
+    * Link de compra: [Corsair RM1000e - Mercado Libre](https://www.mercadolibre.com.mx)
+
+7. Gabinete
+    * Modelo: Phanteks Enthoo Elite
+    * Especificaciones:
+        * Materiales premium
+        * Dimensiones: 270 x 750 x 615 mm
+    * Precio: $4,601
+    * Link de compra: [Phanteks Enthoo Elite](https://www.phanteks.com)
+
