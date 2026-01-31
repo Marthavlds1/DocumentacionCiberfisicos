@@ -38,26 +38,41 @@ Precio:$5,899
 Link de compra:[Procesador AMD 7 7700](https://ddtech.mx/producto/procesador-amd-ryzen-7-7700-5-3-ghz-8-nucleos-socket-am5-amd-radeon-graphics-100-100000592box-7000-series?id=12368)
 
 2. Tarjeta Madre
-Modelo: ASUS Prime B650M-A AX6 II 
-Especificaciones:
+* Modelo: ASUS Prime B650M-A AX6 II 
+* Especificaciones:
         * Capacidad 192 GB
         * RAM DDR5  
         * Socket AM5 
         * Wi-Fi 6
         * Bluetooth 5.3 
-Precio: $2,391
-Link de compra: [Tarjeta Madre](https://www.amazon.com.mx/ASUS-Tarjeta-B650M-AX6-II/dp/B0FH5RFTYW/ref=asc_df_B0FH5RFTYW?mcid=b49a30fd395739d08a9e046c62254f38&tag=gledskshopmx-20&linkCode=df0&hvadid=761967928071&hvpos=&hvnetw=g&hvrand=7741242411400839862&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9196927&hvtargid=pla-2441705692528&psc=1&language=es_MX&gad_source=1)
+* Precio: $2,391
+* Link de compra: [Tarjeta Madre](https://www.amazon.com.mx/ASUS-Tarjeta-B650M-AX6-II/dp/B0FH5RFTYW/ref=asc_df_B0FH5RFTYW?mcid=b49a30fd395739d08a9e046c62254f38&tag=gledskshopmx-20&linkCode=df0&hvadid=761967928071&hvpos=&hvnetw=g&hvrand=7741242411400839862&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9196927&hvtargid=pla-2441705692528&psc=1&language=es_MX&gad_source=1)
 
 3. Memoria RAM
-Modelo: Kingston Fury Beast RGB 
-Especificaciones: 
+* Modelo: Kingston Fury Beast RGB 
+* Especificaciones: 
         * Capacidad 16GB (1x16GB) 
         * Frecuencia 5600MHz 
         * Generación DDR5 
         * Iluminación RGB 
+* Precio: $1,599 
+* Link de compra: [Memoria RAM](https://www.xtremepc.com.mx/products/memoria-ram-xtreme-pc-gaming-kingston-fury-beast-rgb-ddr5-16gb-5600mt-s-1x16gb-negro)
 
-Precio: $1,599 
-Link de compra: [Memoria RAM](https://www.xtremepc.com.mx/products/memoria-ram-xtreme-pc-gaming-kingston-fury-beast-rgb-ddr5-16gb-5600mt-s-1x16gb-negro)
+4. Tarjeta Gráfica 
+* Modelo: MSI Gaming RTX 5060 8G Shadow 2X OC 
+* Especificaciones: 
+    * 8GB
+    * GDDR7 
+    * Frecuencia 2535 MHz 
+    * Arquitectura NVIDIA Blackwell 
+* Precio: $6,635 
+* Link de compra: [Tarjeta Gráfica](https://www.amazon.com.mx/MSI-Tarjeta-gr%C3%A1fica-Rendimiento-Extremo/dp/B0F4LP8VH5/ref=asc_df_B0F4LP8VH5?mcid=70c017d3b5193cbdbc5a8acd28112c65&tag=gledskshopmx-20&linkCode=df0&hvadid=745054174681&hvpos=&hvnetw=g&hvrand=1722777082906757481&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9196927&hvtargid=pla-2616278449112&psc=1&language=es_MX&gad_source=1)
 
-
+5. Almacenamiento 
+* Modelo: Unidad SSD Kingston NV2 
+* Especificaciones: 
+    * Capacidad 1 TB 
+    * Interfaz PCIe Gen 4.0 x4 y NVMe 
+* Precio: $2,650 
+* Link de compra: [Almacenamiento](https://www.mercadolibre.com.mx/unidad-ssd-kingston-nv2-1tb-m2-nvme-40-3500mb-2100mbs-color-turquesa/p/MLM19738268?pdp_filters=item_id%3AMLM2716408459&from=gshop&matt_tool=22537694&matt_word=&matt_source=google&matt_campaign_id=22122739109&matt_ad_group_id=172792511425&matt_match_type=&matt_network=g&matt_device=c&matt_creative=729726340073&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=735123306&matt_product_id=MLM19738268-product&matt_product_partition_id=2389849485285&matt_target_id=aud-2418605322928:pla-2389849485285&cq_src=google_ads&cq_cmp=22122739109&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=22122739109&gbraid=0AAAAAoTLPrJUVHgYLbN4KT7ftR0spWVwF&gclid=Cj0KCQiAyvHLBhDlARIsAHxl6xpG9GGuj_pmfgU-NPanSzKGIEI53WMLYepCvZutkkZpd7yCOHu-19saArEQEALw_wcB)
 ### 2. Presupuesto ilimitado
