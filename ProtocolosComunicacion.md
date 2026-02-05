@@ -42,6 +42,8 @@ Es el protocolo más rápido de los tres, operando de forma **síncrona** a alta
 * **Ventaja:** Transferencia de datos a muy alta velocidad sin la complejidad de direccionamiento de I2C.
 * **Uso común:** Tarjetas SD, pantallas LCD de alta resolución y memorias Flash.
 
+[Resultado SPI](https://marthavlds1.github.io/DocumentacionCiberfisicos/Practicas/Protocolos-de-Comunicaci%C3%B3n/#c-spi-serial-peripheral-interface-1)
+
 ## 3. Plataformas de Prueba
 En este reporte se comparó el rendimiento de tres arquitecturas distintas:
 1. **ATMEGA328 (Arduino Nano/Uno):** Arquitectura de 8 bits, ideal para tareas sencillas.
@@ -53,6 +55,12 @@ En este reporte se comparó el rendimiento de tres arquitecturas distintas:
 
 ### A. UART (Universal Asynchronous Receiver-Transmitter)
 * **Códigos.** 
+
+Maestro MicroPython XIAO ESP32 S3
+![Código Maestro XIAO ESP32 S3](assets/img/UART1.png)
+
+Esclavo Arduino IDE Arduino Uno 
+![Código Esclavo Arduino Uno](assets/img/UART2.png)
 
 * **Conexión.** 
 
@@ -79,6 +87,12 @@ En el gráfico, las líneas punteadas azules muestran el rango de una desviació
 ### B. I2C (Inter-Integrated Circuit)
 * **Códigos.** 
 
+Maestro MicroPython XIAO ESP32 S3
+![Código Maestro XIAO ESP32 S3](assets/img/I2C2.png)
+
+Esclavo Arduino IDE Arduino Uno
+![Esclavo Arduino Uno](assets/img/I2C1.png)
+
 * **Conexión.** 
 
 XIAO ESP32-S3 (SDA - Pin 5) → Arduino Uno (A4 / SDA)
@@ -103,6 +117,12 @@ Este gráfico muestra una latencia promedio muy consistente con una desviación 
 ### C. SPI (Serial Peripheral Interface)
 * **Códigos.** 
 
+Maestro MicroPython XIAO ESP32 S3
+![Maestro XIAO ESP32 S3](assets/img/SPI1.png)
+
+Esclavo Arduino IDE Arduino Uno 
+![Esclavo Arduino Uno ](assets/img/SPI2.png)
+
 * **Conexión.** 
 
 XIAO ESP32-S3 (SCK - Pin 18) → Arduino Uno (Pin 13)
@@ -115,7 +135,7 @@ XIAO ESP32-S3 (CS - Pin 5) → Arduino Uno (Pin 10)
 
 GND → GND
 
-![Conexión Comunicación I2C](assets/img/Conexion3.png)
+![Conexión Comunicación SPI](assets/img/Conexion3.png)
 
 * **Análisis de los Datos.** 
 
