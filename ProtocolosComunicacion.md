@@ -46,3 +46,14 @@ En este reporte se comparó el rendimiento de tres arquitecturas distintas:
 
 ## 4. Resultados de la Práctica 1: Latencia y Baudrate
 > **Instrucciones:** Identifica el baudrate máximo de cada plataforma y mide el tiempo que tarda un mensaje en llegar de un dispositivo a otro tras 1000 envíos.
+
+### A. UART (Universal Asynchronous Receiver-Transmitter)
+* **Códigos.** 
+
+* **Conexión.** 
+* **XIAO ESP32-S3 (Pin 43 TX)** → **Arduino Uno (Pin 0 RX)**
+* **XIAO ESP32-S3 (Pin 44 RX)** → **Arduino Uno (Pin 1 TX)**
+* **GND** → **GND**
+![Conexión Comunicación UART](<WhatsApp Image 2026-01-29 at 5.45.12 PM.jpeg>)
+* **Salida.** 
+
