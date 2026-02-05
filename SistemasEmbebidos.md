@@ -117,7 +117,7 @@ Se llevó a cabo la configuración de los entornos de desarrollo y la carga del 
 
 > *Resultado:*
 
-<video controls src="assets/videos/ArduinoNano1.mp4" title="Blink Arduino Nano "></video>
+<video controls src="././assets/videos/Arduino1.mp4" title="Blink Arduino Nano "></video>
 
 #### RP2040
 > *Programador: MicroPython*
