@@ -26,6 +26,8 @@ Es un protocolo de comunicación serie **asíncrona**, lo que significa que no n
 * **Modo:** Full-duplex (puede enviar y recibir datos al mismo tiempo).
 * **Uso común:** Consolas de depuración, módulos GPS y Bluetooth.
 
+ [Resultado UART](https://marthavlds1.github.io/DocumentacionCiberfisicos/Practicas/Protocolos-de-Comunicaci%C3%B3n/#a-uart-universal-asynchronous-receiver-transmitter-1)
+
 ### B. I2C (Inter-Integrated Circuit)
 Protocolo de tipo **síncrono** que utiliza una arquitectura Maestro-Esclavo.
 * **Conexión:** Solo requiere dos hilos: **SDA** (datos) y **SCL** (reloj).
@@ -71,5 +73,32 @@ Latencia Promedio: 0.6526 mssegundos.
 ![Gráfica Comunicación UART](assets/img/Grafica1.jpeg)
 
 En el gráfico, las líneas punteadas azules muestran el rango de una desviación estándar por encima y por debajo de la media (0.6987 ms y 0.6066 ms, respectivamente), donde se encuentra la mayoría de los mensajes.
+
+
+
+### B. I2C (Inter-Integrated Circuit)
+* **Códigos.** 
+
+* **Conexión.** 
+
+XIAO ESP32-S3 (SDA - Pin 5) → Arduino Uno (A4 / SDA)
+
+XIAO ESP32-S3 (SCL - Pin 6) → Arduino Uno (A5 / SCL)
+
+GND → GND
+![alt text](image.png)
+![Conexión Comunicación I2C](assets/img/Conexion2.png)
+
+* **Análisis de los Datos.** 
+
+Mensajes Enviados: 1,000
+
+Éxito de Recepción (ACK): [Inserta % aquí, ej: 99.8%]
+
+Latencia Promedio: 1.6515 ms.
+
+![Gráfica Comunicación I2C](assets/img/Grafica2.png)
+
+Este gráfico muestra una latencia promedio muy consistente con una desviación estándar baja, lo que indica que el sistema es muy estable, ya que la mayoría de los mensajes tienen tiempos de respuesta muy cercanos a la media.
 
 
