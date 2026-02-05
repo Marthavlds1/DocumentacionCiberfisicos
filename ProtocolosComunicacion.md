@@ -51,14 +51,22 @@ En este reporte se comparó el rendimiento de tres arquitecturas distintas:
 * **Códigos.** 
 
 * **Conexión.** 
+
 XIAO ESP32-S3 (Pin 43 TX) → Arduino Uno (Pin 0 RX)
 
 XIAO ESP32-S3 (Pin 44 RX) → Arduino Uno (Pin 1 TX)
 
-* GND → GND
+GND → GND
+
 * **Análisis de los Datos.** 
-* Mensajes Enviados: 1,000
-* Éxito de Recepción (ACK): [Inserta % aquí, ej: 99.8%]
-* Latencia Promedio: [Inserta valor aquí] segundos.
-* Estabilidad: [Menciona si hubo muchos picos de latencia (jitter) o si fue constante].
+
+Mensajes Enviados: 1,000
+
+Éxito de Recepción (ACK): [Inserta % aquí, ej: 99.8%]
+
+Latencia Promedio: 0.6526 mssegundos.
+
+![Conexión Comunicación UART](assets/img/Conexion1.jpeg)
+En el gráfico, las líneas punteadas azules muestran el rango de una desviación estándar por encima y por debajo de la media (0.6987 ms y 0.6066 ms, respectivamente), donde se encuentra la mayoría de los mensajes.
+
 
