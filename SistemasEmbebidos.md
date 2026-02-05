@@ -120,6 +120,7 @@ Se llevó a cabo la configuración de los entornos de desarrollo y la carga del 
 
 #### RP2040
 > *Programador: MicroPython*
+
     # blink_xiao_rp2040.py
     from machine import Pin
     import time
@@ -137,18 +138,41 @@ Se llevó a cabo la configuración de los entornos de desarrollo y la carga del 
 <video controls src="assets/videos/20401.mp4" title="XIAO RP2040"></video>
     
 ### ESP32 DevKit V1 (ESP32‑WROOM‑32)
-> *Código:*
+> *Programador: MicroPython*
+
+    # blink_esp32_devkitv1.py
+    from machine import Pin
+    import time
+
+    LED = Pin(2, Pin.OUT)
+
+    while True:
+        LED.value(1)
+        time.sleep(0.5)
+        LED.value(0)
+        time.sleep(0.5)
 
 > *Resultado:*
 
-> *Programador:*
+<video controls src="assets/videos/ESP321.mp4" title="Blink ESP32"></video>
 
 ### XIAO ESP32S3 Sense
-> *Código:*
-
-> *Resultado:*
-
 > *Programador:*
+    # blink_xiao_esp32s3.py
+    from machine import Pin
+    import time
+
+    LED = Pin(21, Pin.OUT)  # activo-bajo
+
+    while True:
+        LED.value(0)  # ON
+        time.sleep(0.5)
+        LED.value(1)  # OFF
+        time.sleep(0.5)
+
+> *Resultado:*  
+
+<video controls src="assets/videos/S31.mp4" title="Blink XIAO ESP32-S2=3"></video>
 
 
 
