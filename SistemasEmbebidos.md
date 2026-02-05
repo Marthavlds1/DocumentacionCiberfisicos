@@ -5,15 +5,15 @@ nav_order: 2
 parent: Practicas
 permalink: /Practicas/Sistemas-Embebidos/
 ---
-# Reporte: Programación de Microcontroladores
+# Programación de Microcontroladores
 
 ## 1. ¿Qué son los sistemas embebidos?
-Los **sistemas embebidos** son sistemas de cómputo diseñados para ejecutar una función específica dentro de un sistema más amplio. A diferencia de una computadora de propósito general, un sistema embebido se integra directamente a un dispositivo físico y está optimizado para realizar tareas concretas como:
+Los sistemas embebidos son sistemas de cómputo diseñados para ejecutar una función específica dentro de un sistema más amplio. A diferencia de una computadora de propósito general, un sistema embebido se integra directamente a un dispositivo físico y está optimizado para realizar tareas concretas como:
 * **Control y Monitoreo**
 * **Adquisición de datos**
 * **Comunicación con otros sistemas**
 
-Estos sistemas combinan **hardware** (microcontroladores, sensores, actuadores) y **software**, operando bajo restricciones de tiempo real, consumo energético y memoria. En el contexto de los **sistemas ciberfísicos**, actúan como el nexo entre el mundo físico y el digital.
+Estos sistemas combinan hardware (microcontroladores, sensores, actuadores) y software, operando bajo restricciones de tiempo real, consumo energético y memoria. En el contexto de los sistemas ciberfísicos, actúan como el nexo entre el mundo físico y el digital.
 
 ---
 
@@ -22,12 +22,20 @@ Durante la práctica se trabajó con diversas plataformas de desarrollo para com
 
 ### Descripción de las plataformas:
 
-* **Arduino Uno / Arduino Nano (ATmega328P):** * Arquitectura AVR de 8 bits. 
+* **Arduino Uno:** 
+    * Arquitectura AVR de 8 bits. 
     * Ideal para aprendizaje básico de pines digitales, entradas analógicas y temporizadores.
+
+* **Arduino Nano (ATmega328P):** 
+* Arquitectura AVR de 8 bits. 
+    * Ideal para aprendizaje básico de pines digitales, entradas analógicas y temporizadores.
+
 * **Seeed Studio XIAO RP2040:** * Arquitectura ARM Cortex-M0+ de doble núcleo. 
     * Alta flexibilidad para periféricos y compatible con MicroPython.
+    
 * **ESP32 DevKit V1 (ESP32-WROOM-32):** * Arquitectura Xtensa LX6 de doble núcleo. 
     * Incorpora Wi-Fi y Bluetooth, ideal para Internet de las Cosas (IoT).
+
 * **Seeed Studio XIAO ESP32S3 Sense:** * Arquitectura Xtensa LX7. 
     * Incluye sensores integrados y soporte para visión artificial básica.
 
@@ -61,14 +69,21 @@ Se llevó a cabo la configuración de los entornos de desarrollo y la carga del 
 
 ### Evidencia de funcionamiento (Resultados)
 
-#### ATmega328P (Arduino)
+#### Arduino Uno
+> *[Inserta aquí la foto o video de tu Arduino haciendo Blink]*
+
+#### Arduino Nano (ATmega328P)
 > *[Inserta aquí la foto o video de tu Arduino haciendo Blink]*
 
 #### RP2040
 > *[Inserta aquí la foto o video de tu XIAO RP2040 haciendo Blink]*
 
-#### ESP32
+### ESP32 DevKit V1 (ESP32‑WROOM‑32)
 > *[Inserta aquí la foto o video de tu ESP32 haciendo Blink]*
+
+### XIAO ESP32S3 Sense
+> *[Inserta aquí la foto o video de tu ESP32 haciendo Blink]*
+
 
 ---
 *Reporte generado para la asignatura de Sistemas Ciberfísicos.*
