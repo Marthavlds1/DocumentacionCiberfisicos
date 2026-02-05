@@ -96,14 +96,24 @@ Se llevó a cabo la configuración de los entornos de desarrollo y la carga del 
     }
 
 > *Resultado:*
-   <video src="assets/videos/Arduino1.mp4" width="400" controls></video>
+    <video controls src="assets/videos/Arduino1.mp4" title="Blink Arduino Uno"></video>
 
 #### Arduino Nano (ATmega328P)
-> *Código:*
+> *Programador: Arduino IDE*
 
+        // blink_uno_nano.ino
+    void setup() {
+    pinMode(LED_BUILTIN, OUTPUT);
+    }
+
+    void loop() {
+    digitalWrite(LED_BUILTIN, HIGH);
+    delay(500);
+    digitalWrite(LED_BUILTIN, LOW);
+    delay(500);
+    }
 > *Resultado:*
-
-> *Programador:*
+    <video controls src="assets/videos/ArduinoNano1.mp4" title="Blink Arduino Nano "></video>
 
 #### RP2040
 > *Código:*
