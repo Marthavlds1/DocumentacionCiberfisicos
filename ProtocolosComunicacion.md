@@ -31,3 +31,18 @@ Protocolo de tipo **síncrono** que utiliza una arquitectura Maestro-Esclavo.
 * **Conexión:** Solo requiere dos hilos: **SDA** (datos) y **SCL** (reloj).
 * **Ventaja:** Permite conectar múltiples dispositivos (hasta 127) usando el mismo par de cables mediante direcciones únicas.
 * **Uso común:** Sensores de temperatura, acelerómetros y pantallas OLED.
+
+### C. SPI (Serial Peripheral Interface)
+Es el protocolo más rápido de los tres, operando de forma **síncrona** a altas velocidades.
+* **Conexión:** Utiliza cuatro hilos (**MOSI, MISO, SCK, SS**).
+* **Ventaja:** Transferencia de datos a muy alta velocidad sin la complejidad de direccionamiento de I2C.
+* **Uso común:** Tarjetas SD, pantallas LCD de alta resolución y memorias Flash.
+
+## 3. Plataformas de Prueba
+En este reporte se comparó el rendimiento de tres arquitecturas distintas:
+1. **ATMEGA328 (Arduino Nano/Uno):** Arquitectura de 8 bits, ideal para tareas sencillas.
+2. **ESP32:** Potente procesador de 32 bits con conectividad Wi-Fi y Bluetooth integrada.
+3. **RP2040 (Raspberry Pi Pico):** Procesador de doble núcleo con alta flexibilidad en sus pines de entrada/salida.
+
+## 4. Resultados de la Práctica 1: Latencia y Baudrate
+> **Instrucciones:** Identifica el baudrate máximo de cada plataforma y mide el tiempo que tarda un mensaje en llegar de un dispositivo a otro tras 1000 envíos.
