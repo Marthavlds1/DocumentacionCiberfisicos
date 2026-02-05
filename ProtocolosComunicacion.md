@@ -33,6 +33,7 @@ Protocolo de tipo **síncrono** que utiliza una arquitectura Maestro-Esclavo.
 * **Conexión:** Solo requiere dos hilos: **SDA** (datos) y **SCL** (reloj).
 * **Ventaja:** Permite conectar múltiples dispositivos (hasta 127) usando el mismo par de cables mediante direcciones únicas.
 * **Uso común:** Sensores de temperatura, acelerómetros y pantallas OLED.
+
 [Resultado I2C](https://marthavlds1.github.io/DocumentacionCiberfisicos/Practicas/Protocolos-de-Comunicaci%C3%B3n/#b-i2c-inter-integrated-circuit-1)
 
 ### C. SPI (Serial Peripheral Interface)
@@ -67,8 +68,6 @@ GND → GND
 
 Mensajes Enviados: 1,000
 
-Éxito de Recepción (ACK): [Inserta % aquí, ej: 99.8%]
-
 Latencia Promedio: 0.6526 mssegundos.
 
 ![Gráfica Comunicación UART](assets/img/Grafica1.jpeg)
@@ -93,8 +92,6 @@ GND → GND
 * **Análisis de los Datos.** 
 
 Mensajes Enviados: 1,000
-
-Éxito de Recepción (ACK): [Inserta % aquí, ej: 99.8%]
 
 Latencia Promedio: 1.6515 ms.
 
