@@ -58,6 +58,8 @@ XIAO ESP32-S3 (Pin 44 RX) → Arduino Uno (Pin 1 TX)
 
 GND → GND
 
+![Conexión Comunicación UART](assets/img/Conexion1.jpeg)
+
 * **Análisis de los Datos.** 
 
 Mensajes Enviados: 1,000
@@ -66,7 +68,8 @@ Mensajes Enviados: 1,000
 
 Latencia Promedio: 0.6526 mssegundos.
 
-![Conexión Comunicación UART](assets/img/Conexion1.jpeg)
+![Gráfica Comunicación UART](assets/img/Grafica1.jpeg)
+
 En el gráfico, las líneas punteadas azules muestran el rango de una desviación estándar por encima y por debajo de la media (0.6987 ms y 0.6066 ms, respectivamente), donde se encuentra la mayoría de los mensajes.
 
 
