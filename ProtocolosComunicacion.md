@@ -100,3 +100,29 @@ Latencia Promedio: 1.6515 ms.
 Este gráfico muestra una latencia promedio muy consistente con una desviación estándar baja, lo que indica que el sistema es muy estable, ya que la mayoría de los mensajes tienen tiempos de respuesta muy cercanos a la media.
 
 
+### C. SPI (Serial Peripheral Interface)
+* **Códigos.** 
+
+* **Conexión.** 
+
+XIAO ESP32-S3 (SCK - Pin 18) → Arduino Uno (Pin 13)
+
+XIAO ESP32-S3 (MISO - Pin 19) → Arduino Uno (Pin 12)
+
+XIAO ESP32-S3 (MOSI - Pin 23) → Arduino Uno (Pin 11)
+
+XIAO ESP32-S3 (CS - Pin 5) → Arduino Uno (Pin 10)
+
+GND → GND
+
+![Conexión Comunicación I2C](assets/img/Conexion3.png)
+
+* **Análisis de los Datos.** 
+
+Mensajes Enviados: 1,000
+
+Latencia Promedio: 8.1513 ms.
+
+![Gráfica Comunicación SPI](assets/img/Grafica3.jpeg)
+
+Este gráfico muestra una dispersión mayor de los puntos de datos alrededor de la media, con picos ocasionales de latencia de hasta 0.75 segundos. Esto indica una mayor variabilidad.
