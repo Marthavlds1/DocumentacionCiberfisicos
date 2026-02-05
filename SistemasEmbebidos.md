@@ -96,7 +96,7 @@ Se llevó a cabo la configuración de los entornos de desarrollo y la carga del 
     }
 
 > *Resultado:*
-   * <video controls src="assets/videos/Arduino1.mp4" title="Blink Arduino Uno"></video> 
+   <video src="assets/videos/Arduino1.mp4" width="400" controls></video>
 
 #### Arduino Nano (ATmega328P)
 > *Código:*
