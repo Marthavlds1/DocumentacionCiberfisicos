@@ -33,6 +33,7 @@ Protocolo de tipo **síncrono** que utiliza una arquitectura Maestro-Esclavo.
 * **Conexión:** Solo requiere dos hilos: **SDA** (datos) y **SCL** (reloj).
 * **Ventaja:** Permite conectar múltiples dispositivos (hasta 127) usando el mismo par de cables mediante direcciones únicas.
 * **Uso común:** Sensores de temperatura, acelerómetros y pantallas OLED.
+[Resultado I2C](https://marthavlds1.github.io/DocumentacionCiberfisicos/Practicas/Protocolos-de-Comunicaci%C3%B3n/#b-i2c-inter-integrated-circuit-1)
 
 ### C. SPI (Serial Peripheral Interface)
 Es el protocolo más rápido de los tres, operando de forma **síncrona** a altas velocidades.
@@ -86,7 +87,7 @@ XIAO ESP32-S3 (SDA - Pin 5) → Arduino Uno (A4 / SDA)
 XIAO ESP32-S3 (SCL - Pin 6) → Arduino Uno (A5 / SCL)
 
 GND → GND
-![alt text](image.png)
+
 ![Conexión Comunicación I2C](assets/img/Conexion2.png)
 
 * **Análisis de los Datos.** 
