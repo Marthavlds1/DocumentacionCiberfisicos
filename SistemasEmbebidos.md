@@ -47,7 +47,7 @@ Durante la práctica se trabajó con diversas plataformas de desarrollo para com
 
 * **Seeed Studio XIAO ESP32S3 Sense:** * Arquitectura Xtensa LX7. 
     * Incluye sensores integrados y soporte para visión artificial básica.
-    
+
     [Programación](https://marthavlds1.github.io/DocumentacionCiberfisicos/Practicas/Sistemas-Embebidos/#xiao-esp32s3-sense)
 
 ### Tabla Comparativa de Hardware
@@ -81,8 +81,11 @@ Se llevó a cabo la configuración de los entornos de desarrollo y la carga del 
 ### Evidencia de funcionamiento (Resultados)
 
 #### Arduino Uno
-> *[Inserta aquí la foto o video de tu Arduino haciendo Blink]*
+> *Código:*
 
+> *Resultado:*
+
+> *Programador:*
 #### Arduino Nano (ATmega328P)
 > *[Inserta aquí la foto o video de tu Arduino haciendo Blink]*
 
