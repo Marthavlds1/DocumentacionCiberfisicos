@@ -26,18 +26,29 @@ Durante la práctica se trabajó con diversas plataformas de desarrollo para com
     * Arquitectura AVR de 8 bits. 
     * Ideal para aprendizaje básico de pines digitales, entradas analógicas y temporizadores.
 
+    [Programación](https://marthavlds1.github.io/DocumentacionCiberfisicos/Practicas/Sistemas-Embebidos/#arduino-uno)
+
 * **Arduino Nano (ATmega328P):** 
 * Arquitectura AVR de 8 bits. 
     * Ideal para aprendizaje básico de pines digitales, entradas analógicas y temporizadores.
 
-* **Seeed Studio XIAO RP2040:** * Arquitectura ARM Cortex-M0+ de doble núcleo. 
+    [Programación](https://marthavlds1.github.io/DocumentacionCiberfisicos/Practicas/Sistemas-Embebidos/#arduino-nano-atmega328p)
+
+* **Seeed Studio XIAO RP2040:** 
+    * Arquitectura ARM Cortex-M0+ de doble núcleo. 
     * Alta flexibilidad para periféricos y compatible con MicroPython.
+
+    [Programación](https://marthavlds1.github.io/DocumentacionCiberfisicos/Practicas/Sistemas-Embebidos/#rp2040)
     
 * **ESP32 DevKit V1 (ESP32-WROOM-32):** * Arquitectura Xtensa LX6 de doble núcleo. 
     * Incorpora Wi-Fi y Bluetooth, ideal para Internet de las Cosas (IoT).
 
+    [Programación](https://marthavlds1.github.io/DocumentacionCiberfisicos/Practicas/Sistemas-Embebidos/#esp32-devkit-v1-esp32wroom32)
+
 * **Seeed Studio XIAO ESP32S3 Sense:** * Arquitectura Xtensa LX7. 
     * Incluye sensores integrados y soporte para visión artificial básica.
+    
+    [Programación](https://marthavlds1.github.io/DocumentacionCiberfisicos/Practicas/Sistemas-Embebidos/#xiao-esp32s3-sense)
 
 ### Tabla Comparativa de Hardware
 
@@ -85,8 +96,6 @@ Se llevó a cabo la configuración de los entornos de desarrollo y la carga del 
 > *[Inserta aquí la foto o video de tu ESP32 haciendo Blink]*
 
 
----
-*Reporte generado para la asignatura de Sistemas Ciberfísicos.*
 
 
 
@@ -103,12 +112,3 @@ Se llevó a cabo la configuración de los entornos de desarrollo y la carga del 
 
 
 
-## Uso de microcontroladores
-### Arduino Uno (ATmega328P)
-![Pin Out Arduino Nano](assets/img/ArduinoUnoPinOut.png)
-![Pin Out Arduino Nano](assets/img/ArduinoUno.png)
-
-### Arduino Nano (ATmega328P)
-### XIAO RP2040
-### ESP32 DevKit V1 (ESP32‑WROOM‑32)
-### XIAO ESP32S3 Sense
