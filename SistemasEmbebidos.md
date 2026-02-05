@@ -97,7 +97,7 @@ Se llevó a cabo la configuración de los entornos de desarrollo y la carga del 
 
 > *Resultado:*
 
-    <video controls src="assets/videos/Arduino1.mp4" title="Blink Arduino Uno"></video>
+<video controls src="assets/videos/Arduino1.mp4" title="Blink Arduino Uno"></video>
 
 #### Arduino Nano (ATmega328P)
 > *Programador: Arduino IDE*
@@ -116,15 +116,26 @@ Se llevó a cabo la configuración de los entornos de desarrollo y la carga del 
 
 > *Resultado:*
 
-    <video controls src="assets/videos/ArduinoNano1.mp4" title="Blink Arduino Nano "></video>
+<video controls src="assets/videos/ArduinoNano1.mp4" title="Blink Arduino Nano "></video>
 
 #### RP2040
-> *Código:*
+> *Programador: MicroPython*
+    # blink_xiao_rp2040.py
+    from machine import Pin
+    import time
 
-> *Resultado:*
+    LED = Pin(17, Pin.OUT)  # activo-bajo
 
-> *Programador:*
+    while True:
+        LED.value(0)  # ON
+        time.sleep(0.5)
+        LED.value(1)  # OFF
+        time.sleep(0.5)
 
+> *Resultado:*  
+
+<video controls src="assets/videos/20401.mp4" title="XIAO RP2040"></video>
+    
 ### ESP32 DevKit V1 (ESP32‑WROOM‑32)
 > *Código:*
 
