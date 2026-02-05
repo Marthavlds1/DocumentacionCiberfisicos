@@ -96,6 +96,7 @@ Se llevó a cabo la configuración de los entornos de desarrollo y la carga del 
     }
 
 > *Resultado:*
+
     <video controls src="assets/videos/Arduino1.mp4" title="Blink Arduino Uno"></video>
 
 #### Arduino Nano (ATmega328P)
@@ -112,7 +113,9 @@ Se llevó a cabo la configuración de los entornos de desarrollo y la carga del 
     digitalWrite(LED_BUILTIN, LOW);
     delay(500);
     }
+
 > *Resultado:*
+
     <video controls src="assets/videos/ArduinoNano1.mp4" title="Blink Arduino Nano "></video>
 
 #### RP2040
