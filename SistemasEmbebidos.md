@@ -82,6 +82,7 @@ Se llevó a cabo la configuración de los entornos de desarrollo y la carga del 
 
 #### Arduino Uno
 > *Programador: Arduino IDE*
+
     // blink_uno_nano.ino
     void setup() {
     pinMode(LED_BUILTIN, OUTPUT);
@@ -95,10 +96,19 @@ Se llevó a cabo la configuración de los entornos de desarrollo y la carga del 
     }
 
 > *Resultado:*
-   ![Blink Arduino Uno](assets/img/Arduino1.png)
+   <table>
+  <tr>
+    <td align="center" width="50%">
+      <b>📷 Evidencia Foto</b><br>
+      <img src="assets/img/Arduino1.png" width="100%" alt="Blink Arduino Uno">
+    </td>
+    <td align="center" width="50%">
+      <b>🎥 Evidencia Video</b><br>
+      <video src="assets/videos/Arduino1.mp4" width="100%" controls></video>
+    </td>
+  </tr>
+</table>
 
-   <video controls src="assets/videos/Arduino1.mp4" title="Blink Arduino Nano"></video>
-   
 #### Arduino Nano (ATmega328P)
 > *Código:*
 
