@@ -81,23 +81,51 @@ Se llevó a cabo la configuración de los entornos de desarrollo y la carga del 
 ### Evidencia de funcionamiento (Resultados)
 
 #### Arduino Uno
+> *Programador: Arduino IDE*
+    // blink_uno_nano.ino
+    void setup() {
+    pinMode(LED_BUILTIN, OUTPUT);
+    }
+
+    void loop() {
+    digitalWrite(LED_BUILTIN, HIGH);
+    delay(500);
+    digitalWrite(LED_BUILTIN, LOW);
+    delay(500);
+    }
+
+> *Resultado:*
+   ![Blink Arduino Uno](assets/img/Arduino1.png)
+
+   <video controls src="assets/videos/Arduino1.mp4" title="Blink Arduino Nano"></video>
+   
+#### Arduino Nano (ATmega328P)
 > *Código:*
 
 > *Resultado:*
 
 > *Programador:*
-#### Arduino Nano (ATmega328P)
-> *[Inserta aquí la foto o video de tu Arduino haciendo Blink]*
 
 #### RP2040
-> *[Inserta aquí la foto o video de tu XIAO RP2040 haciendo Blink]*
+> *Código:*
+
+> *Resultado:*
+
+> *Programador:*
 
 ### ESP32 DevKit V1 (ESP32‑WROOM‑32)
-> *[Inserta aquí la foto o video de tu ESP32 haciendo Blink]*
+> *Código:*
+
+> *Resultado:*
+
+> *Programador:*
 
 ### XIAO ESP32S3 Sense
-> *[Inserta aquí la foto o video de tu ESP32 haciendo Blink]*
+> *Código:*
 
+> *Resultado:*
+
+> *Programador:*
 
 
 
