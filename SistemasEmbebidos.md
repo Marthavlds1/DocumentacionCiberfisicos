@@ -98,7 +98,10 @@ Se llevó a cabo la configuración de los entornos de desarrollo y la carga del 
 
 > *Resultado:*
 
-<video controls src="assets/videos/Arduino1.mp4" title="Blink Arduino Uno"></video>
+<video controls width="720">
+  <source src="{{ '/assets/videos/Arduino1.mp4' | relative_url }}" type="video/mp4">
+  Tu navegador no soporta video HTML5.
+</video>
 
 #### Arduino Nano (ATmega328P)
 > *Programador: Arduino IDE*
@@ -118,7 +121,7 @@ Se llevó a cabo la configuración de los entornos de desarrollo y la carga del 
 > *Resultado:*
 
 <video controls width="720">
-  <source src="{{ '/assets/videos/Arduino1.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/videos/ArduinoNano1.mp4' | relative_url }}" type="video/mp4">
   Tu navegador no soporta video HTML5.
 </video>
 
@@ -139,7 +142,10 @@ Se llevó a cabo la configuración de los entornos de desarrollo y la carga del 
 
 > *Resultado:*  
 
-<video controls src="assets/videos/20401.mp4" title="XIAO RP2040"></video>
+<video controls width="720">
+  <source src="{{ '/assets/videos/20401.mp4' | relative_url }}" type="video/mp4">
+  Tu navegador no soporta video HTML5.
+</video>
     
 ### ESP32 DevKit V1 (ESP32‑WROOM‑32)
 > *Programador: MicroPython*
@@ -158,7 +164,10 @@ Se llevó a cabo la configuración de los entornos de desarrollo y la carga del 
 
 > *Resultado:*
 
-<video controls src="assets/videos/ESP321.mp4" title="Blink ESP32"></video>
+<video controls width="720">
+  <source src="{{ '/assets/videos/ESP321.mp4' | relative_url }}" type="video/mp4">
+  Tu navegador no soporta video HTML5.
+</video>
 
 ### XIAO ESP32S3 Sense
 > *Programador:*
@@ -176,7 +185,10 @@ Se llevó a cabo la configuración de los entornos de desarrollo y la carga del 
 
 > *Resultado:*  
 
-<video controls src="assets/videos/S31.mp4" title="Blink XIAO ESP32-S2=3"></video>
+<video controls width="720">
+  <source src="{{ '/assets/videos/S31.mp4' | relative_url }}" type="video/mp4">
+  Tu navegador no soporta video HTML5.
+</video>
 
 
 
