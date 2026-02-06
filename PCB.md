@@ -70,7 +70,15 @@ Después de guardar el archivo generado en Mods CE con las especificaciones para
 
 ![alt text](assets/img/PCBFinalFinal.png)
 
-## 4. Funcionamiento Final 
+## 4. Funcionamiento Final
+
+Una vez fabricada la placa mediante el proceso de fresado, se hizo el soldado de nuestros componentes del diseño inicial y a la programación.
+
+### Ensamble/ Soldadura
+Se realizó la soldadura de los componentes siguiendo el diagrama esquemático. Se puso especial cuidado en la orientación del XIAO ESP32 S3 y la polaridad de los LEDs.
+
+### Secuencia por Botón
+El objetivo del programa es que cada vez que se presione el Push Button, se encienda un LED diferente en secuencia (LED 1 -> LED 2 -> LED 3).
 
 ![PCB para XIAO ESP32 S3](assets/img/PCBFinal.png)
 
