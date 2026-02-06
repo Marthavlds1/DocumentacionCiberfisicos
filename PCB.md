@@ -55,7 +55,20 @@ En  esta sección se suben los archivos .svg (uno por uno) para modificar los pa
 
 ### Paso 7: Configuración Roland VPanel 
 Después de guardar el archivo generado en Mods CE con las especificaciones para nuestra fresadora SRM-20, se abrirán los archivos (de igual manera uno por uno) en Roland Vpanel for SRM-20.
-Este sofware ayu
+
+1. Definir el Punto de Origen (X, Y): Mueve la herramienta manualmente usando las flechas del software hasta la esquina inferior izquierda de tu placa.
+2. Definir el Origen en Z: Baja la punta con cuidado hasta que toque la superficie de la placa de cobre (puedes usar un multímetro en continuidad para ser exacto).
+3. Set Origin: Presiona los botones "X/Y" y "Z" en la sección de "User Coordinate" para guardar estas posiciones.
+
+![alt text](assets/img/Roland.png)
+
+### Paso 8: Proceso de Fresado Grabado/Corte
+
+1. Cargar Grabado: Selecciona el archivo de las pistas.
+2. Cambio de Herramienta: La punta de corte debe ser de la medida según hayas estado poniendo en las especificaciones de diseño.
+3. Cargar Corte: Selecciona el archivo de corte exterior.
+
+![alt text](assets/img/PCBFinalFinal.png)
 
 ## 4. Funcionamiento Final 
 
