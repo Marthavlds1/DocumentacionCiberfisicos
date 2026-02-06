@@ -25,22 +25,37 @@ Antes de la fabricación, se debe consolidar el diseño en el software. El circu
 
 A continuación, se describen los pasos necesarios para ordenar la placa siguiendo el flujo de trabajo del documento guía:
 
-### Paso 1:
+### Paso 1: KiCad Elaboración
 
 ![alt text](assets/img/1.png)
 
-### Paso 2: 
+### Paso 2: Selección y conexión de componentes
 
 ![alt text](assets/img/2.png)
 
-
-### Paso 3:
+### Paso 3: Conexión de Componentes/Tierra
 
 ![alt text](assets/img/3.png)
 
-### Paso 4: 
+Vista 3D
 
+![PCB](assets/img/PCB3D.png)
 
+### Paso 5: Archivo de Grabado/Corte 
+Se deben exportar 2 archivos .svg, uno será usado para el grabado en la placa y el otro será el corte de la placa. 
+
+![](assets/img/Exportar.png)
+
+### Paso 6: Mods CE para los .svg
+En  esta sección se suben los archivos .svg (uno por uno) para modificar los parametros con los que se hará el grabado/corte de acuerdo a nuestra punta que se utlizará en la fresadora.
+
+![alt text](assets/img/ModsCE2.png)
+
+![alt text](assets/img/ModsCE3.png)
+
+### Paso 7: Configuración Roland VPanel 
+Después de guardar el archivo generado en Mods CE con las especificaciones para nuestra fresadora SRM-20, se abrirán los archivos (de igual manera uno por uno) en Roland Vpanel for SRM-20.
+Este sofware ayu
 
 ## 4. Funcionamiento Final 
 
