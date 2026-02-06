@@ -13,7 +13,7 @@ El objetivo de esta fase es llevar el diseño electrónico del esquema. Para ell
 
 
 ## 2. Diagrama Esquemático (KiCad)
-Antes de la fabricación, se debe consolidar el diseño en el software. El circuito principal se basa en el **XIAO ESP32 S3** e incluye:
+Antes de la fabricación, se debe consolidar el diseño en el software. El circuito principal se basa en el **XIAO RP20240** e incluye:
 * **Interfaz FTDI:** Para la programación serie.
 * **Indicadores LED:** Para pruebas de salida (Blink).
 * **Botones de Control:** Para funciones de RESET y BOOT.
@@ -75,7 +75,7 @@ Después de guardar el archivo generado en Mods CE con las especificaciones para
 Una vez fabricada la placa mediante el proceso de fresado, se hizo el soldado de nuestros componentes del diseño inicial y a la programación.
 
 ### Ensamble/ Soldadura
-Se realizó la soldadura de los componentes siguiendo el diagrama esquemático. Se puso especial cuidado en la orientación del XIAO ESP32 S3 y la polaridad de los LEDs.
+Se realizó la soldadura de los componentes siguiendo el diagrama esquemático. Se puso especial cuidado en la orientación del XIAO RP20240 y la polaridad de los LEDs.
 
 ### Secuencia por Botón
 El objetivo del programa es que cada vez que se presione el Push Button, se encienda un LED diferente en secuencia (LED 1 -> LED 2 -> LED 3).
