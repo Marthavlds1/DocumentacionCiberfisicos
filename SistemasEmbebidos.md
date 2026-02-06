@@ -116,8 +116,10 @@ Se llevó a cabo la configuración de los entornos de desarrollo y la carga del 
     }
 
 > *Resultado:*
-
-<video controls src="././assets/videos/Arduino1.mp4" title="Blink Arduino Nano "></video>
+<video controls width="720">
+  <source src="/DocumentacionWearables/assets/videos/Arduino1.mp4" type="video/mp4">
+  Tu navegador no soporta video HTML5.
+</video>
 
 #### RP2040
 > *Programador: MicroPython*
