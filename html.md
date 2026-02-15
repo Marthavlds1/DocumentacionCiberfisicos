@@ -72,6 +72,7 @@ Para pruebas de desarrollo rápido e interconexión con otros dispositivos en la
 De acuerdo a la documentación de la librería, se modificó el archivo de ajustes para asegurar la estabilidad del socket:
 
 2. **Código en JSON:**
+Recurso: [Código Generado JSON](assets/files/settings.json)
 
     {
     "liveServer.settings.port": 5500,
