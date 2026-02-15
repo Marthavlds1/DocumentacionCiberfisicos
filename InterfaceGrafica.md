@@ -35,7 +35,7 @@ A diferencia del Bluetooth clásico, BLE utiliza una jerarquía de datos:
 * Servicios: Agrupaciones lógicas de funciones (identificadas por UUID).
 * Características: Los puntos de datos finales donde se lee, escribe o se notifican cambios. El uso de Notificaciones es crítico aquí, ya que permite al servidor (ESP32) enviar datos al cliente (PC) sin que este los solicite explícitamente.
 
-### 4. Componentes Usados 
+## 4. Componentes Usados 
 
 | Componente | Especificación |
 | :--- | :--- |
@@ -45,5 +45,9 @@ A diferencia del Bluetooth clásico, BLE utiliza una jerarquía de datos:
 | IDE/Lenguaje | Arduino IDE 2.3 (C++) y VS Code (Python 3.11) |
 | Librerías GUI | PyQt6 para la gestión de señales y slots |
 | Librerías Comm | pyserial para UART y BLEDevice.h para el stack inalámbrico |
+
+
+## 5. Desarrollo Técnico 
+### Etapa 1. Diseño de la Interfaz y Wirefame
 
 
