@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Interface Gráfica de Usuario
-nav_order: 3
+nav_order: 4
 parent: Practicas
 permalink: /Practicas/Interface-Gráfica-de-Usuario/
 ---
@@ -53,10 +53,13 @@ La GUI fue diseñada bajo el principio de separación de responsabilidades.
 * **Visualización:** El widget led_indicator utiliza QSS (Qt Style Sheets) para renderizar un círculo con bordes redondeados (border-radius: 50px), emulando un LED físico.
 * **Lógica de Conexión:** Se implementó un manejador de excepciones para el puerto **/dev/cu.usbmodem14101 (Mac/Linux)**, asegurando que la aplicación no colapse si el hardware se desconecta.
 
+![alt text](assets/img/Wireframe.png)
+
 Wireframe del Sistema:
 1. **Header**: Indicador de estado de conexión.
 2. **Body**: Visualizador central (LED Virtual) y log de eventos.
 3. **Footer**: Panel de control de comandos (ON/OFF) y botón de Toggle Serial.
+
 
 ### Etapa 2. Comunicación UART y Protocolo de Aplicación
 En el código C++, se estableció una velocidad de 115200 baudios. La lógica del loop() prioriza la lectura del buffer serial:
@@ -70,6 +73,8 @@ La función **trim()** es vital para eliminar caracteres de escape (\r\n) que su
 ### Etapa 3. Interacción Bidireccional (Físico-Virtual)
 Esta es la etapa crítica del flujo de datos:
 1. **Del Hardware a la GUI:** El ESP32 detecta un flanco de bajada (LOW) en el pin 2. Envía la cadena "LED_ON".
+![alt text](assets/img/Conexion.png)
+
 2. **En la PC:** El hilo read_serial en Python recibe la cadena. Debido a que los hilos secundarios no pueden modificar la interfaz directamente, se emite una señal: signals.led_on.emit().
 3. **Actualización:** El hilo principal captura la señal y cambia el color del widget a verde.
 
@@ -109,7 +114,6 @@ Durante las pruebas, se comparó la latencia de ambos métodos.
 
 ![Interfaz Gráfica](assets/img/Interfazz.png)
 
-![alt text](image.png)
 ## 7. Análisis y Discusión 
 1. **Robustez del Software (Threading)**
 Un error común en reportes básicos es omitir por qué se usa threading. En este proyecto, si la lectura serial se hiciera en el hilo principal, la interfaz se "congelaría" mientras el puerto espera datos. El uso de daemon=True asegura que, al cerrar la ventana, el hilo de comunicación muera automáticamente, evitando procesos huérfanos.
