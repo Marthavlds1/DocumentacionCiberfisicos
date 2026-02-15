@@ -49,5 +49,12 @@ A diferencia del Bluetooth clásico, BLE utiliza una jerarquía de datos:
 
 ## 5. Desarrollo Técnico 
 ### Etapa 1. Diseño de la Interfaz y Wirefame
+La GUI fue diseñada bajo el principio de separación de responsabilidades.
+* Visualización: El widget led_indicator utiliza QSS (Qt Style Sheets) para renderizar un círculo con bordes redondeados (border-radius: 50px), emulando un LED físico.
+* Lógica de Conexión: Se implementó un manejador de excepciones para el puerto /dev/cu.usbmodem14101 (Mac/Linux), asegurando que la aplicación no colapse si el hardware se desconecta.
 
+Wireframe del Sistema:
+1. Header: Indicador de estado de conexión.
+2. Body: Visualizador central (LED Virtual) y log de eventos.
+3. Footer: Panel de control de comandos (ON/OFF) y botón de Toggle Serial.
 
