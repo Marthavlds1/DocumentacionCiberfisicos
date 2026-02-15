@@ -44,7 +44,9 @@ index.html
 
 ### Etapa 2. Codificación del Documento Estructural
 Se redactó el archivo index.html utilizando etiquetas semánticas básicas. Este archivo sirve como el punto de entrada (Entry Point) tanto para el servidor remoto como para el local.
+
 Recursos: [Código generado HTML](assets/files/index.html)
+
     <!doctype html>
     <html>
     <head>
@@ -70,6 +72,7 @@ Para pruebas de desarrollo rápido e interconexión con otros dispositivos en la
 De acuerdo a la documentación de la librería, se modificó el archivo de ajustes para asegurar la estabilidad del socket:
 
 2. **Código en JSON:**
+
     {
     "liveServer.settings.port": 5500,
     "liveServer.settings.host": "localhost"
@@ -83,19 +86,16 @@ Al ejecutar "Open with Live Server" desde Visual Studio Code, el sitio se vuelve
 
 ### Etapa 5. Resultados y Evidencia 
 * **GitHub Actions**
-
 Workflow en verde (Success)
 
 ![alt text](assets/img/GithubSuccess.png)
 
 * **Despliegue Online**
-
 Visualización en dominio .github.io
 
 ![alt text](assets/img/mihtml.png)
 
 * **Acceso Local**
-
 Acceso desde smartphone vía IP: **http://172.16.0.167:5500**
 
 ![alt text](assets/img/IPpag.png)
