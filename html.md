@@ -64,17 +64,18 @@ Tras realizar el Commit (guardado de cambios) y el Push (subida a la nube), se a
 
 ### Etapa 4. Configuración del Servidor Local y Exposición por IP
 Para pruebas de desarrollo rápido e interconexión con otros dispositivos en la misma red (como un ESP32 o un smartphone), se utilizó la extensión **Live Server**.
+![alt text](assets/img/LiveServer.png)
 
-**Configuración del Puerto**
+1. **Configuración del Puerto**
 De acuerdo a la documentación de la librería, se modificó el archivo de ajustes para asegurar la estabilidad del socket:
 
-**Código en JSON:**
+2. **Código en JSON:**
     {
     "liveServer.settings.port": 5500,
     "liveServer.settings.host": "localhost"
     }
 
-**Acceso mediante IP**
+3. **Acceso mediante IP**
 Al ejecutar "Open with Live Server" desde Visual Studio Code, el sitio se vuelve accesible no solo en la máquina local (127.0.0.1), sino en cualquier dispositivo conectado a la misma red WiFi utilizando la dirección IP de la computadora seguida del puerto asignado.
 
 **Ejemplo de acceso:** http://172.16.0.167:5500
@@ -83,14 +84,17 @@ Al ejecutar "Open with Live Server" desde Visual Studio Code, el sitio se vuelve
 ### Etapa 5. Resultados y Evidencia 
 **GitHub Actions**
 Workflow en verde (Success)
+
 ![alt text](assets/img/GithubSuccess.png)
 
 **Despliegue Online**
 Visualización en dominio .github.io
+
 ![alt text](assets/img/mihtml.png)
 
 **Acceso Local**
 Acceso desde smartphone vía IP: **http://172.16.0.167:5500**
+
 ![alt text](assets/img/IPpag.png)
 
 **Nota Técnica:** Para que el acceso por IP funcione desde otros dispositivos, es necesario verificar que el Firewall de la computadora permita conexiones entrantes por el puerto 5500.
