@@ -50,11 +50,55 @@ A diferencia del Bluetooth clásico, BLE utiliza una jerarquía de datos:
 ## 5. Desarrollo Técnico 
 ### Etapa 1. Diseño de la Interfaz y Wirefame
 La GUI fue diseñada bajo el principio de separación de responsabilidades.
-* Visualización: El widget led_indicator utiliza QSS (Qt Style Sheets) para renderizar un círculo con bordes redondeados (border-radius: 50px), emulando un LED físico.
-* Lógica de Conexión: Se implementó un manejador de excepciones para el puerto /dev/cu.usbmodem14101 (Mac/Linux), asegurando que la aplicación no colapse si el hardware se desconecta.
+* **Visualización:** El widget led_indicator utiliza QSS (Qt Style Sheets) para renderizar un círculo con bordes redondeados (border-radius: 50px), emulando un LED físico.
+* **Lógica de Conexión:** Se implementó un manejador de excepciones para el puerto **/dev/cu.usbmodem14101 (Mac/Linux)**, asegurando que la aplicación no colapse si el hardware se desconecta.
 
 Wireframe del Sistema:
-1. Header: Indicador de estado de conexión.
-2. Body: Visualizador central (LED Virtual) y log de eventos.
-3. Footer: Panel de control de comandos (ON/OFF) y botón de Toggle Serial.
+1. **Header**: Indicador de estado de conexión.
+2. **Body**: Visualizador central (LED Virtual) y log de eventos.
+3. **Footer**: Panel de control de comandos (ON/OFF) y botón de Toggle Serial.
+
+### Etapa 2. Comunicación UART y Protocolo de Aplicación
+En el código C++, se estableció una velocidad de 115200 baudios. La lógica del loop() prioriza la lectura del buffer serial:
+    if (Serial.available()) {
+        String cmd = Serial.readStringUntil('\n');
+        cmd.trim();
+        // Procesamiento de comandos
+    }
+La función **trim()** es vital para eliminar caracteres de escape (\r\n) que suelen corromper las comparaciones de cadenas de texto en C++.
+
+### Etapa 3. Interacción Bidireccional (Físico-Virtual)
+Esta es la etapa crítica del flujo de datos:
+1. **Del Hardware a la GUI:** El ESP32 detecta un flanco de bajada (LOW) en el pin 2. Envía la cadena "LED_ON".
+2. **En la PC:** El hilo read_serial en Python recibe la cadena. Debido a que los hilos secundarios no pueden modificar la interfaz directamente, se emite una señal: signals.led_on.emit().
+3. **Actualización:** El hilo principal captura la señal y cambia el color del widget a verde.
+
+### Etapa 4. Migración a Bluetooth (BLE)
+El código fue reestructurado para dejar de ser un flujo serie y convertirse en un **Servidor de Atributos**.
+* UUID de Servicio: 1234
+* UUID de Característica: 5678 (Con propiedades de READ, WRITE y NOTIFY).
+**Cambio Paradigmático:** En UART, usamos Serial.println(). En BLE, usamos pCharacteristic->setValue() seguido de pCharacteristic->notify(). Esto último es lo que permite que la GUI de Python (una vez adaptada con una librería como bleak) reciba el cambio instantáneamente.
+
+### Etapa 5. Análisis de la Máquina de Estados (Firmware ESP32-S3) 
+El software del sistema embebido opera bajo una arquitectura de super-loop con manejo de eventos. A diferencia de un programa secuencial, el ESP32-S3 evalúa constantemente dos vectores de entrada: el estado del hardware (GPIO) y el buffer de comunicaciones (Serial/BLE).
+
+### Diagrama de Flujo Lógico
+**Descripción del Flujo Operativo**
+1. **Estado de Inicialización (Setup):**
+* Configuración de registros de E/S: El GPIO 2 se define como INPUT_PULLUP para asegurar un nivel lógico alto constante en ausencia de pulsación.
+* Inicialización del Stack de Comunicación: Se establece la tasa de 115200 baudios (UART) o se instancia el servidor GATT (BLE) con sus respectivos UUIDs.
+* Estado Inicial: Se fuerza el LED_PIN a LOW para garantizar un estado conocido.
+2. **Ciclo de Ejecución (Main Loop):**
+* Subrutina de Monitoreo de Hardware: El sistema realiza un polling del BTN_PIN. Si se detecta una transición de HIGH a LOW (flanco de bajada), el sistema entra en una rutina de cambio de estado (toggle).
+* Gestión de Debouncing: Se introduce una guarda de tiempo (delay no bloqueante o simple) para evitar el ruido mecánico del switch que podría disparar múltiples eventos de interrupción.
+* Sincronización de Salida: Tras el cambio de estado local, se actualiza el GPIO 3 y se despacha un paquete de datos hacia la interfaz (Serial.println o pCharacteristic->notify).
+3. **Manejador de Comandos Externos (HMI Interface):**
+* El sistema interroga el buffer de recepción. Si existen datos pendientes, se realiza un parsing del String entrante.
+* Determinismo Lógico: Solo si la cadena coincide exactamente con "ON" u "OFF", el procesador ejecuta la acción. Esto previene ejecuciones erróneas por ruido en la línea de transmisión.
+
+## 6. Resultados y Evidencia 
+**Análisis de Operación** 
+Durante las pruebas, se comparó la latencia de ambos métodos.
+* UART: Respuesta inmediata ($\approx$ 10ms).
+* BLE: Respuesta fluida ($\approx$ 40ms), pero con la ventaja de inmunidad al ruido electromagnético ambiental al no requerir cables de datos.
 
