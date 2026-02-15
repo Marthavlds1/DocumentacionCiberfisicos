@@ -87,6 +87,7 @@ El código fue reestructurado para dejar de ser un flujo serie y convertirse en 
 ### Etapa 5. Análisis de la Máquina de Estados (Firmware ESP32-S3) 
 El software del sistema embebido opera bajo una arquitectura de super-loop con manejo de eventos. A diferencia de un programa secuencial, el ESP32-S3 evalúa constantemente dos vectores de entrada: el estado del hardware (GPIO) y el buffer de comunicaciones (Serial/BLE).
 
+![alt text](assets/img/Diagrama.png)
 ### Diagrama de Flujo Lógico
 **Descripción del Flujo Operativo**
 1. **Estado de Inicialización (Setup):**
@@ -106,7 +107,12 @@ El software del sistema embebido opera bajo una arquitectura de super-loop con m
 Durante las pruebas, se comparó la latencia de ambos métodos.
 * UART: Respuesta inmediata ($\approx$ 10ms).
 * BLE: Respuesta fluida ($\approx$ 40ms), pero con la ventaja de inmunidad al ruido electromagnético ambiental al no requerir cables de datos.
+Recursos Descargables:
+* [GUI LED ESP32](assets/files/gui_led_esp32.py)
+* [BLUE ESP32](assets/files/blue_esp.c)
+* [Serial ESP32](assets/files/serialEsp.c)
 
+*Funcionamiento del Wireframe:*
 <video controls width="720">
   <source src="{{ '/assets/videos/Interfaz.mp4' | relative_url }}" type="video/mp4">
   Tu navegador no soporta video HTML5.
