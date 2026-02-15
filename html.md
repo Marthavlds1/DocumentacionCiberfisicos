@@ -82,17 +82,20 @@ Al ejecutar "Open with Live Server" desde Visual Studio Code, el sitio se vuelve
 ![alt text](assets/img/IP.png)
 
 ### Etapa 5. Resultados y Evidencia 
-**GitHub Actions**
+* **GitHub Actions**
+
 Workflow en verde (Success)
 
 ![alt text](assets/img/GithubSuccess.png)
 
-**Despliegue Online**
+* **Despliegue Online**
+
 Visualización en dominio .github.io
 
 ![alt text](assets/img/mihtml.png)
 
-**Acceso Local**
+* **Acceso Local**
+
 Acceso desde smartphone vía IP: **http://172.16.0.167:5500**
 
 ![alt text](assets/img/IPpag.png)
