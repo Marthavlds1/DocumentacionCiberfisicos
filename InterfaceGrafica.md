@@ -107,6 +107,7 @@ El software del sistema embebido opera bajo una arquitectura de super-loop con m
 Durante las pruebas, se comparó la latencia de ambos métodos.
 * UART: Respuesta inmediata ($\approx$ 10ms).
 * BLE: Respuesta fluida ($\approx$ 40ms), pero con la ventaja de inmunidad al ruido electromagnético ambiental al no requerir cables de datos.
+
 Recursos Descargables:
 * [GUI LED ESP32](assets/files/gui_led_esp32.py)
 * [BLUE ESP32](assets/files/blue_esp.c)
