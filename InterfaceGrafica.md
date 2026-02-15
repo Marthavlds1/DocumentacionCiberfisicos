@@ -102,3 +102,10 @@ Durante las pruebas, se comparó la latencia de ambos métodos.
 * UART: Respuesta inmediata ($\approx$ 10ms).
 * BLE: Respuesta fluida ($\approx$ 40ms), pero con la ventaja de inmunidad al ruido electromagnético ambiental al no requerir cables de datos.
 
+## 7. Análisis y Discusión 
+1. **Robustez del Software (Threading)**
+Un error común en reportes básicos es omitir por qué se usa threading. En este proyecto, si la lectura serial se hiciera en el hilo principal, la interfaz se "congelaría" mientras el puerto espera datos. El uso de daemon=True asegura que, al cerrar la ventana, el hilo de comunicación muera automáticamente, evitando procesos huérfanos.
+2. **Estabilidad del Enlace (Debouncing)**
+Se identificó que el pulsador físico generaba múltiples señales por un solo pulso (rebote). La solución fue un delay(200) en UART y 300 en BLE. En un entorno industrial, esto se mejoraría con un capacitor de desacoplo de $0.1\mu F$ o un disparador Schmitt.
+3. **Limitaciones de la Migración**
+El código de Python proporcionado usa pyserial, que es estrictamente para UART. Para que la migración a BLE sea funcional al 100% en la interfaz, se recomienda la integración de la librería bleak, ya que el puerto serie virtual por Bluetooth no siempre es estable en sistemas operativos modernos.
