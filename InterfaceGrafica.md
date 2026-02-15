@@ -107,6 +107,9 @@ Durante las pruebas, se comparó la latencia de ambos métodos.
   Tu navegador no soporta video HTML5.
 </video>
 
+![Interfaz Gráfica](assets/img/Interfazz.png)
+
+
 ## 7. Análisis y Discusión 
 1. **Robustez del Software (Threading)**
 Un error común en reportes básicos es omitir por qué se usa threading. En este proyecto, si la lectura serial se hiciera en el hilo principal, la interfaz se "congelaría" mientras el puerto espera datos. El uso de daemon=True asegura que, al cerrar la ventana, el hilo de comunicación muera automáticamente, evitando procesos huérfanos.
