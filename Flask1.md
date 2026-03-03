@@ -68,6 +68,7 @@ Esta practica documenta el proceso de creacion de una interfaz web para controla
 ## 4. Estructura del Proyecto
 
 ```
+Proyecto .zip: assets/files/FlaskLocal.zip
 led-esp32-split/
 ├── backend/
 │   ├── app.py              <- API Flask (solo backend)
