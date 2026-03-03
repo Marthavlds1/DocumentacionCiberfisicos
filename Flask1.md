@@ -7,13 +7,6 @@ permalink: /Practicas/Interfaz-Web-Flask/Flask-Local/
 ---
 # Practica: Interfaz Web Flask + Servidor Front para Control de LED en ESP32 Fisica
 
-**Materia:** Sistemas Ciberfisicos
-**Institucion:** Universidad Iberoamericana A.C.
-**Fecha:** _[agregar fecha]_
-**Alumno:** _[agregar nombre]_
-
----
-
 ## Descripcion General
 
 Esta practica documenta el proceso de creacion de una interfaz web para controlar una tira de LEDs NeoPixel WS2812B conectada a un ESP32 fisico. Se implemento una arquitectura de dos servidores separados: un backend Flask que expone una API REST, y un frontend estatico HTML/JS/CSS que consume dicha API. La ESP32 consulta el estado del servidor cada 500 ms y aplica el color y cantidad de LEDs indicados.

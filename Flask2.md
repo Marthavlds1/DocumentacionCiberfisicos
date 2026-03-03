@@ -7,13 +7,6 @@ permalink: /Practicas/Interfaz-Web-Flask/Backend-y-Fronted-remoto/
 ---
 # Práctica: Control de Tira LED con ESP32 vía Red Local (Frontend/Backend en PCs distintas)
 
-**Materia:** Sistemas Ciberfísicos  
-**Institución:** Universidad Iberoamericana A.C.  
-**Alumno:** _[Tu nombre]_  
-**Fecha:** _[Fecha de entrega]_
-
----
-
 ## 1. Objetivo
 
 Diseñar e implementar un sistema de control de una tira LED WS2812B conectada a una ESP32, donde la interfaz gráfica (frontend) y el servidor de control (backend) corren en **computadoras físicamente distintas** dentro de la misma red local, demostrando la separación de responsabilidades en arquitecturas cliente-servidor aplicadas a sistemas ciberfísicos.

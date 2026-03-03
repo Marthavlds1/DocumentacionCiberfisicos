@@ -5,14 +5,13 @@ nav_order: 3
 parent: Interfaz Web Flask
 permalink: /Practicas/Interfaz-Web-Flask/Render-y-Github/
 ---
-# Prácticas — Interface Gráfica de Usuario
-## Control Remoto de LED ESP32 con Flask y Despliegue en la Nube (Render + GitHub Pages)
+# Control Remoto de LED ESP32 con Flask y Despliegue en la Nube (Render + GitHub Pages)
 
 En la ingeniería de sistemas ciberfísicos, la integración de hardware embebido con servicios web accesibles desde internet es un componente esencial del desarrollo IoT moderno. Este reporte detalla la creación de un sistema de control remoto para una tira de LEDs NeoPixel WS2812B conectada a un ESP32, utilizando un backend Flask como intermediario y desplegándolo en la nube mediante Render. Se analiza la evolución desde una comunicación local (LAN) hacia un acceso global a través de internet.
 
----
 
-## 2. Objetivos
+
+## 1. Objetivos
 
 **General:** Diseñar un sistema IoT completo que permita el control remoto de LEDs físicos desde una interfaz web, eliminando la restricción de red local y permitiendo acceso desde cualquier lugar del mundo.
 
@@ -24,7 +23,7 @@ En la ingeniería de sistemas ciberfísicos, la integración de hardware embebid
 
 ---
 
-## 3. Tecnologías y Herramientas
+## 2. Tecnologías y Herramientas
 
 ### ESP32 y NeoPixel WS2812B
 El ESP32 es un microcontrolador con WiFi integrado ampliamente utilizado en proyectos IoT. Su conectividad permite realizar peticiones HTTP hacia servidores remotos. La tira NeoPixel WS2812B permite controlar color RGB y cantidad de LEDs activos de manera individual mediante un solo pin de datos (GPIO 5).
@@ -46,7 +45,7 @@ Se utilizaron dos repositorios independientes:
 
 ---
 
-## 4. Componentes Usados
+## 3. Componentes Usados
 
 | Componente | Especificación |
 |---|---|
@@ -62,7 +61,7 @@ Se utilizaron dos repositorios independientes:
 
 ---
 
-## 5. Desarrollo Técnico
+## 4. Desarrollo Técnico
 
 ### Etapa 1. Estructura del Proyecto y Repositorios
 
@@ -211,7 +210,7 @@ El sistema opera bajo una arquitectura cliente-servidor distribuida en tres capa
 
 ---
 
-## 6. Resultados y Evidencia
+## 5. Resultados y Evidencia
 
 ### Análisis de Operación
 
@@ -239,7 +238,7 @@ El principal factor de latencia en el plan gratuito de Render es el **spin-down 
 
 ---
 
-## 7. Análisis y Discusión
+## 6. Análisis y Discusión
 
 **Acceso Global vs. Red Local**
 La principal diferencia con prácticas anteriores es la eliminación de la restricción de red local. Al desplegar el backend en Render, cualquier dispositivo con acceso a internet puede controlar los LEDs, independientemente de la red a la que esté conectado el ESP32 o el usuario.
@@ -258,7 +257,7 @@ El ESP32 utiliza polling (consulta periódica) en lugar de WebSockets. Esto simp
 
 ---
 
-## 8. Conclusiones
+## 7. Conclusiones
 
 > ✏️ **[Escribe aquí tus conclusiones personales sobre la práctica]**
 
@@ -266,15 +265,3 @@ Sugerencia de puntos a cubrir:
 - ¿Qué aprendiste sobre el despliegue de APIs en la nube?
 - ¿Qué diferencias notaste entre controlar el hardware localmente vs. desde internet?
 - ¿Qué mejorarías del sistema si tuvieras más tiempo?
-
----
-
-## 9. Referencias
-
-> 📚 **[Agrega aquí tus referencias bibliográficas o de documentación]**
-
-- Documentación oficial de Flask: https://flask.palletsprojects.com
-- Documentación de Render: https://render.com/docs
-- Librería Adafruit NeoPixel: https://github.com/adafruit/Adafruit_NeoPixel
-- ArduinoJson: https://arduinojson.org
-- GitHub Pages: https://pages.github.com
