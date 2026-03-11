@@ -670,7 +670,11 @@ Los logs confirman que:
 
 ### Evidencia fotográfica
 
-> 📸 _[Insertar foto/video de la tira LED respondiendo a los cambios en la interfaz]_
+Video de la tira LED respondiendo a los cambios en la interfaz
+<video controls width="720">
+  <source src="{{ '/assets/videos/video2.mp4' | relative_url }}" type="video/mp4">
+  Tu navegador no soporta video HTML5.
+</video>
 
 Captura del estado "✅ Conectado" en la interfaz
 ![alt text](assets/img/Web2.png)
@@ -702,13 +706,3 @@ El estado se persiste en un archivo JSON local, lo que permite que la ESP32 recu
 - La ESP32 se integró como un tercer cliente de la misma API REST, validando la interoperabilidad del sistema.
 - CORS es un componente crítico en cualquier arquitectura web donde el cliente y el servidor tienen orígenes distintos.
 - El patrón cliente-servidor con polling es funcional para este caso de uso, pero presenta limitaciones de latencia que se pueden resolver con comunicación por eventos.
-
----
-
-## 10. Referencias
-
-- [Flask Documentation](https://flask.palletsprojects.com/)
-- [Flask-CORS Documentation](https://flask-cors.readthedocs.io/)
-- [ESP32 Arduino Core](https://github.com/espressif/arduino-esp32)
-- [WS2812B Datasheet](https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
-- [MDN — Same-Origin Policy](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy)
