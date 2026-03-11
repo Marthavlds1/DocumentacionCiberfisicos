@@ -253,7 +253,7 @@ Archivo app.py para descargar: [ app.py](assets/files/app.py)
 #      
 ```
 Captura de pantalla del servidor corriendo en terminal
-![alt text](Terminal1.png)
+![alt text](assets/img/Terminal1.png)
 ---
 
 ### Etapa 2 - Configuracion del Frontend
@@ -452,7 +452,7 @@ Archivo app.js para descargar: [app.js](assets/files/app.js)
         loadState();]
 ```
 Captura de pantalla del servidor corriendo en terminal:
-![alt text](Terminal2.png)
+![alt text](assets/img/Terminal2.png)
 
 Captura de la interfaz web en el navegador:
 ![alt text](assets/img/navegador1.png)
