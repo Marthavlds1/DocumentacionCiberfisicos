@@ -44,8 +44,8 @@ Esta practica documenta el proceso de creacion de una interfaz web para controla
                            [ESP32 Fisica]
                            Tira WS2812B (8 LEDs)
 ```
-
-![Sistema físico](Armadoesp.png)
+Sistema físico:
+![Sistema físico](assets/img/Armadoesp.png)
 ---
 
 ## 3. Tecnologias y Herramientas
@@ -65,7 +65,7 @@ Esta practica documenta el proceso de creacion de una interfaz web para controla
 ---
 
 ## 4. Estructura del Proyecto
-Proyecto .zip para descargar: [Flask Local](assets/files/index.html)
+Proyecto .zip para descargar: [Flask Local](assets/files/FlaskLocal.zip)
 ```
 ├── backend/
 │   ├── app.py              <- API Flask (solo backend)
