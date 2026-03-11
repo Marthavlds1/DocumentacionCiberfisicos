@@ -267,15 +267,189 @@ const DEFAULT_API = "http://TU_IP:5000";
 ```
 
 **Codigo `index.html`:**
-
+Archivo index.html para descargar: [index.html](assets/files/index1.html)
 ```html
-<!-- [Pegar aqui el contenido de index.html] -->
+<!-- [<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>LED Controller (8x WS2812)</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div>
+        <h1>Control de tira LED (8)</h1>
+        <p class="muted">Servidor local (Flask) → ESP32 consulta estado y actualiza la tira.</p>
+      </div>
+      <div class="badge" id="netBadge">Conectando…</div>
+    </header>
+
+    <main class="grid">
+      <section class="card">
+        <h2>Ajustes</h2>
+
+        <div class="field">
+          <label for="color">Color</label>
+          <div class="row">
+            <input id="color" type="color" value="#ff0000" />
+            <div class="code" id="colorHex">#ff0000</div>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="count">LEDs encendidos: <span class="strong" id="countLabel">8</span>/8</label>
+          <input id="count" type="range" min="0" max="8" step="1" value="8" />
+          <div class="hint">Tip: 0 apaga todo, 8 enciende toda la tira.</div>
+        </div>
+
+        <div class="actions">
+          <button class="btn" id="btnOff">Apagar</button>
+          <button class="btn primary" id="btnSave">Guardar</button>
+        </div>
+
+        <div class="status">
+          <div><span class="muted">rev:</span> <span id="rev">—</span></div>
+          <div><span class="muted">updated:</span> <span id="updatedAt">—</span></div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Preview (8 LEDs)</h2>
+        <div class="strip" id="strip"></div>
+        <p class="muted small">
+          Esto es solo una vista previa. El ESP32 aplicará el mismo estado al hardware.
+        </p>
+      </section>
+    </main>
+
+    <footer class="foot muted">
+      API: <span class="mono">GET /api/state</span> · <span class="mono">POST /api/state</span>
+    </footer>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
+] -->
 ```
 
 **Codigo `app.js`:**
-![alt text](image.png)
+Archivo app.js para descargar: [app.js](assets/files/app.js)
 ```javascript
-// [Pegar aqui el contenido de app.js]
+        // [const elColor = document.getElementById("color");
+        const elHex = document.getElementById("colorHex");
+        const elCount = document.getElementById("count");
+        const elCountLabel = document.getElementById("countLabel");
+        const elStrip = document.getElementById("strip");
+        const elBadge = document.getElementById("netBadge");
+        const elRev = document.getElementById("rev");
+        const elUpdatedAt = document.getElementById("updatedAt");
+
+        const btnOff = document.getElementById("btnOff");
+        const btnSave = document.getElementById("btnSave");
+
+        let current = { color: "#ff0000", count: 8, rev: null, updated_at: null };
+        let sendTimer = null;
+
+        function clamp(n, a, b) { return Math.max(a, Math.min(b, n)); }
+
+        function renderPreview() {
+        elHex.textContent = current.color.toLowerCase();
+        elCountLabel.textContent = String(current.count);
+
+        elStrip.innerHTML = "";
+        for (let i = 0; i < 8; i++) {
+        const d = document.createElement("div");
+        d.className = "led";
+        if (i < current.count) d.style.background = current.color;
+        elStrip.appendChild(d);
+        }
+
+        elRev.textContent = current.rev ?? "—";
+        elUpdatedAt.textContent = current.updated_at ? new Date(current.updated_at).toLocaleString() : "—";
+        }
+
+        function setBadge(ok, text) {
+        elBadge.textContent = text;
+        elBadge.style.borderColor = ok ? "rgba(100,255,180,.25)" : "rgba(255,120,120,.25)";
+        elBadge.style.background = ok ? "rgba(100,255,180,.10)" : "rgba(255,120,120,.10)";
+        }
+
+        async function loadState() {
+        try {
+        const r = await fetch("/api/state", { cache: "no-store" });
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        const st = await r.json();
+        current.color = st.color;
+        current.count = clamp(parseInt(st.count, 10) || 0, 0, 8);
+        current.rev = st.rev ?? null;
+        current.updated_at = st.updated_at ?? null;
+
+        elColor.value = current.color;
+        elCount.value = current.count;
+
+        renderPreview();
+        setBadge(true, "Conectado");
+        } catch (e) {
+        setBadge(false, "Sin conexión");
+        }
+        }
+
+        async function saveState() {
+        try {
+        const payload = { color: current.color, count: current.count };
+        const r = await fetch("/api/state", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+        });
+        const out = await r.json();
+        if (!r.ok) throw new Error(out?.error || `HTTP ${r.status}`);
+
+        current.rev = out.rev ?? current.rev;
+        current.updated_at = out.updated_at ?? current.updated_at;
+
+        renderPreview();
+        setBadge(true, "Guardado");
+        } catch (e) {
+        setBadge(false, "Error al guardar");
+        console.error(e);
+        }
+        }
+
+        // Guarda con debounce (para no spamear el server mientras arrastras el slider)
+        function scheduleSave(delayMs = 180) {
+        clearTimeout(sendTimer);
+        sendTimer = setTimeout(() => saveState(), delayMs);
+        }
+
+        elColor.addEventListener("input", () => {
+        current.color = elColor.value;
+        renderPreview();
+        scheduleSave();
+        });
+
+        elCount.addEventListener("input", () => {
+        current.count = clamp(parseInt(elCount.value, 10) || 0, 0, 8);
+        renderPreview();
+        scheduleSave();
+        });
+
+        btnOff.addEventListener("click", () => {
+        current.count = 0;
+        elCount.value = 0;
+        renderPreview();
+        saveState();
+        });
+
+        btnSave.addEventListener("click", () => saveState());
+
+        // init
+        renderPreview();
+        loadState();]
 ```
 Captura de pantalla del servidor corriendo en terminal:
 ![alt text](Terminal2.png)
