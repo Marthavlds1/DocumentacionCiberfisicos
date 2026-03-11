@@ -97,7 +97,8 @@ El archivo `app.py` expone dos endpoints principales sin servir ningun archivo e
 | GET | `/api/health` | Verificacion de que el servidor esta activo |
 
 **Codigo `app.py`:**
-Archivo app.py para descargar: [Flask Local](assets/files/app.py)
+
+Archivo app.py para descargar: [ app.py](assets/files/app.py)
 ```python
 
     from __future__ import annotations
@@ -251,9 +252,8 @@ Archivo app.py para descargar: [Flask Local](assets/files/app.py)
 
 #      
 ```
-
-> _[Insertar captura de pantalla del servidor corriendo en terminal]_
-
+Insertar captura de pantalla del servidor corriendo en terminal
+![alt text](Terminal1.png)
 ---
 
 ### Etapa 2 - Configuracion del Frontend
