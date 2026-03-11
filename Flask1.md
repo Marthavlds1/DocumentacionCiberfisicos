@@ -45,8 +45,7 @@ Esta practica documenta el proceso de creacion de una interfaz web para controla
                            Tira WS2812B (8 LEDs)
 ```
 
-> _[Insertar diagrama o foto del sistema fisico aqui]_
-
+![Sistema físico](Armadoesp.png)
 ---
 
 ## 3. Tecnologias y Herramientas
