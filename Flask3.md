@@ -512,7 +512,8 @@ void loop() {
 
 
 **Codigo completo `esp32-led-fisico.ino`:**
-Archivo esp32-led-fisico.inoo para descargar: [InterfazFlaskLocal.ino](assets/files/esp32-led-fisico3.ino)
+
+Archivo esp32-led-fisico.ino para descargar: [InterfazFlaskLocal.ino](assets/files/esp32-led-fisico3.ino)
 
 ```cpp
 /*
@@ -665,7 +666,7 @@ void loop() {
 ```
 
 Fotografía del circuito físico armado:
-![alt text](Armadoesp.png)
+![alt text](assets/img/Armadoesp.png)
 
 ---
 
