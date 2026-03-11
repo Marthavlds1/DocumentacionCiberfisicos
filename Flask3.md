@@ -83,9 +83,11 @@ led-esp32-frontend/
 └── app.js              ← Lógica de consumo de la API
 ```
 Captura de repositorio Backend en GitHub:
+
 ![Sistema físico](assets/img/Repositorio1.png)
 
-Captura de repositorio Backend en GitHub:
+Captura de repositorio Fronted en GitHub:
+
 ![Sistema físico](assets/img/Repositorio2.png)
 
 ---
@@ -726,10 +728,6 @@ El plan Free de Render suspende el servicio tras períodos de inactividad, lo qu
 
 **Persistencia con Archivo JSON**
 El estado se guarda en un archivo `state.json` en el sistema de archivos de Render. Dado que el plan gratuito no garantiza disco persistente entre deploys, los datos pueden perderse al hacer un nuevo despliegue. Para mayor robustez, se recomienda migrar a una base de datos como SQLite o PostgreSQL.
-
-**Polling vs. WebSockets**
-El ESP32 utiliza polling (consulta periódica) en lugar de WebSockets. Esto simplifica el código pero introduce una latencia máxima igual al intervalo de polling (500 ms). Una mejora futura sería implementar Server-Sent Events o WebSockets para que el ESP32 reciba notificaciones en tiempo real sin necesidad de consultar constantemente.
-
 ---
 
 
