@@ -252,7 +252,7 @@ Archivo app.py para descargar: [ app.py](assets/files/app.py)
 
 #      
 ```
-Insertar captura de pantalla del servidor corriendo en terminal
+Captura de pantalla del servidor corriendo en terminal
 ![alt text](Terminal1.png)
 ---
 
@@ -273,12 +273,15 @@ const DEFAULT_API = "http://TU_IP:5000";
 ```
 
 **Codigo `app.js`:**
-
+![alt text](image.png)
 ```javascript
 // [Pegar aqui el contenido de app.js]
 ```
+Captura de pantalla del servidor corriendo en terminal:
+![alt text](Terminal2.png)
 
-> _[Insertar captura de la interfaz web en el navegador]_
+Captura de la interfaz web en el navegador:
+![alt text](assets/img/navegador1.png)
 
 ---
 
