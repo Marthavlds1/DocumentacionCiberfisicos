@@ -695,18 +695,8 @@ Captura de la interfaz desde el iPad o celular:
   Tu navegador no soporta video HTML5.
 </video>
 
-## 7. Nota Tecnica - Firewall
 
-Para que otros dispositivos en la red puedan acceder a los servidores, fue necesario abrir los puertos en el Firewall de Windows ejecutando los siguientes comandos en **PowerShell como administrador**:
-
-```powershell
-netsh advfirewall firewall add rule name="Flask 5000" dir=in action=allow protocol=TCP localport=5000
-netsh advfirewall firewall add rule name="Front 5500" dir=in action=allow protocol=TCP localport=5500
-```
-
----
-
-## 8. Analisis y Discusion
+## 7. Analisis y Discusion
 
 ### Diferencia entre servidor local y servidor remoto
 
@@ -725,16 +715,3 @@ Durante la practica se observo que la IP local de la PC cambia al reiniciar o ca
 Con un intervalo de polling de 500 ms, el tiempo maximo de respuesta desde que el usuario mueve un slider hasta que el LED cambia es de aproximadamente **500-700 ms**, lo cual es aceptable para esta aplicacion.
 
 ---
-
-## 9. Conclusiones
-
-> _[Escribir conclusiones personales aqui]_
-
----
-
-## 10. Referencias
-
-- Documentacion oficial de Flask: https://flask.palletsprojects.com
-- Libreria Adafruit NeoPixel: https://github.com/adafruit/Adafruit_NeoPixel
-- ArduinoJson: https://arduinojson.org
-- _[Agregar mas referencias segun sea necesario]_
