@@ -485,8 +485,8 @@ const char* STATE_URL = "http://TU_IP:5000/api/state";
 | GND | GND |
 | Fuente 5V externa | VCC |
 
-> _[Insertar foto del circuito fisico / wiring real]_
-
+Circuito fisico :
+![alt text](assets/img/Armadoesp.png)
 ---
 
 ### Etapa 4 - Arranque de los Servidores
@@ -507,7 +507,6 @@ API corriendo en      http://0.0.0.0:5000
 ESP32 apunta a        http://TU_IP:5000/api/state
 ```
 
-> _[Insertar captura de la terminal del backend]_
 
 **Terminal 2 - Frontend:**
 
@@ -521,8 +520,8 @@ Salida esperada:
 Serving HTTP on 0.0.0.0 port 5500 ...
 ```
 
-> _[Insertar captura de las dos terminales corriendo al mismo tiempo]_
-
+Captura de las dos terminales corriendo al mismo tiempo:
+![alt text](assets/img/Terminal3.png)
 ---
 
 ### Etapa 5 - Flasheo de la ESP32
