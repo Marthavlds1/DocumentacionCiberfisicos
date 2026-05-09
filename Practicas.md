@@ -12,4 +12,4 @@ Contenido:
 - [Computadoras](Computadoras.md)
 - [Sistemas Embebidos/ Diseño de PCB](SistemasEmbebidos.md)
 - [Protocolos de comunicación](ProtocolosComunicacion.md)
-
+- [PLC (Programado con Python)](plcpython.md)
